@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html:focus-within { scroll-behavior: smooth; }
+.container { @apply mx-auto max-w-6xl px-4; }
+.btn { @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 border bg-brand-500 text-white hover:bg-brand-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-500; }
+.input{ @apply border rounded-xl px-3 py-2 w-full; }
+.select{ @apply border rounded-xl px-3 py-2; }
