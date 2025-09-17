@@ -2,14 +2,31 @@
 'use client';
 
 import Image from 'next/image';
+import { type ChangeEvent } from 'react';
 
-export default function ImageGallery({ collections, selectedCollection, setSelectedCollection }) {
+// 1. Defina o tipo de um único item da coleção
+interface CollectionItem {
+  id: number;
+  name: string;
+  isFeatured: boolean;
+  story: string;
+}
+
+// 2. Defina o tipo para as props do componente ImageGallery
+interface ImageGalleryProps {
+  collections: CollectionItem[];
+  selectedCollection: string;
+  setSelectedCollection: (collectionName: string) => void;
+}
+
+// 3. Aplique a tipagem nas props
+export default function ImageGallery({ collections, selectedCollection, setSelectedCollection }: ImageGalleryProps) {
 
   const handleClearFilter = () => {
     setSelectedCollection('');
   };
 
-  const handleClickImage = (collectionName) => {
+  const handleClickImage = (collectionName: string) => {
     setSelectedCollection(collectionName);
   };
 
@@ -19,9 +36,9 @@ export default function ImageGallery({ collections, selectedCollection, setSelec
   return (
     <div className="flex flex-col gap-8 p-4 md:p-8 max-w-7xl mx-auto">
       <div className="flex flex-wrap justify-center gap-4">
-        {featuredCollections.map((collection, index) => (
+        {featuredCollections.map((collection) => (
           <div 
-            key={collection.id} // Usamos o ID como chave única
+            key={collection.id}
             onClick={() => handleClickImage(collection.name)} 
             className="flex-1 min-w-[180px] relative h-[180px] rounded-lg overflow-hidden shadow-lg cursor-pointer"
           >
@@ -43,7 +60,7 @@ export default function ImageGallery({ collections, selectedCollection, setSelec
             id="collections-input"
             name="collections-input"
             value={selectedCollection}
-            onInput={(e) => setSelectedCollection(e.target.value)}
+            onInput={(e: ChangeEvent<HTMLInputElement>) => setSelectedCollection(e.target.value)}
             placeholder="Search for a collection..."
             className="w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-indigo-200 focus:outline-none"
           />
