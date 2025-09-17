@@ -10,6 +10,7 @@ interface CollectionItem {
   name: string;
   isFeatured: boolean;
   story: string;
+  imagePath?: string; // Adicionamos a propriedade opcional
 }
 
 // 2. Defina o tipo para as props do componente ImageGallery
@@ -43,7 +44,7 @@ export default function ImageGallery({ collections, selectedCollection, setSelec
             className="flex-1 min-w-[180px] relative h-[180px] rounded-lg overflow-hidden shadow-lg cursor-pointer"
           >
             <Image
-              src={`/collections/${collection.name.toLowerCase().replace(/ & /g, '_').replace(/ /g, '_')}.png`}
+              src={collection.imagePath || '/path/to/default/image.png'} // Usa imagePath diretamente
               alt={`${collection.name} collection`}
               fill
               className="object-cover w-full h-full transition-transform duration-300 hover:scale-105"
