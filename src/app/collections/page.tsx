@@ -13,12 +13,12 @@ const collections = [
     story: 'Our Clay & Glaze studio is dedicated to the art of pottery, where each piece is handcrafted from natural clay and finished with unique, durable glazes. We believe in creating functional art that brings warmth to your home.',
     imagePath: '/collections/clay_glaze.png',
     products: [
-      { id: '1a', name: 'Ceramic Vase', url: 'https://via.placeholder.com/250/F8F4F0/8B4513?text=Ceramic+Vase' },
-      { id: '1b', name: 'Glazed Bowl', url: 'https://via.placeholder.com/250/F0E8E0/8B4513?text=Glazed+Bowl' },
-      { id: '1c', name: 'Hand-thrown Mug', url: 'https://via.placeholder.com/250/E0D4C5/8B4513?text=Hand-thrown+Mug' },
-      { id: '1d', name: 'Terracotta Jar', url: 'https://via.placeholder.com/250/D1BFAB/8B4513?text=Terracotta+Jar' },
-      { id: '1e', name: 'Clay Plate', url: 'https://via.placeholder.com/250/B49E7C/8B4513?text=Clay+Plate' },
-      { id: '1f', name: 'Figurine Sculpture', url: 'https://via.placeholder.com/250/8B4513/FFFFFF?text=Figurine+Sculpture' },
+      { id: '1a', name: 'Ceramic Vase', url: '/ceramic_vase.png' },
+      { id: '1b', name: 'Glazed Bowl', url: '/glased_bowl.png' },
+      { id: '1c', name: 'Hand-thrown Mug', url: '/hand_thrown_mug.png' },
+      { id: '1d', name: 'Terracotta Jar', url: '/terracotta_jar.png' },
+      { id: '1e', name: 'Clay Plate', url: '/clay_plate.png' },
+      { id: '1f', name: 'Figurine Sculpture', url: 'figurine_sculpture.png' },
     ],
   },
   {
@@ -183,16 +183,8 @@ export default function Collections() {
   const story = selectedCollection ? selectedCollection.story : null;
   const collectionName = selectedCollection ? selectedCollection.name : null;
 
-  // Cria um array de dados mockados para o componente CuratedCollection
-  // Isso simula as 6 imagens que o componente espera
-  const curatedCollectionImages = selectedCollection ? [
-    { id: 1, name: selectedCollection.name, url: selectedCollection.imagePath },
-    { id: 2, name: selectedCollection.name, url: selectedCollection.imagePath },
-    { id: 3, name: selectedCollection.name, url: selectedCollection.imagePath },
-    { id: 4, name: selectedCollection.name, url: selectedCollection.imagePath },
-    { id: 5, name: selectedCollection.name, url: selectedCollection.imagePath },
-    { id: 6, name: selectedCollection.name, url: selectedCollection.imagePath },
-  ] : [];
+  const curatedCollectionImages = selectedCollection ? selectedCollection.products : [];
+
 
   return (
     <div>
