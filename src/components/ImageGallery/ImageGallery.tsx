@@ -54,7 +54,7 @@ export default function ImageGallery({ collections, selectedCollection, setSelec
         ))}
       </div>
       <div className="flex flex-col items-center gap-2">
-        <h2 className="text-xl md:text-2xl font-semibold text-gray-800">Choose your favorite artisan</h2>
+        <h2 className="text-xl md:text-2xl font-semibold text-[#3A3A99]">Choose your favorite artisan</h2>
         <div className="relative w-full md:w-1/2">
           <input
             list="collections-list"

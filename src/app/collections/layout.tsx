@@ -1,4 +1,4 @@
-import "../../styles/globals.css"
+
 
 export const metadata = {
   title: "Handcrafted Haven",
@@ -8,10 +8,6 @@ export const metadata = {
 
 export default function CollectionsLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen">
-        <main id="main" className="flex justify-center py-6 bg-[#F7FAFC]">{children}</main>
-      </body>
-    </html>
+    <div id="main" className="flex justify-center py-6 bg-[#F7FAFC]">{children}</div>
   );
 }
