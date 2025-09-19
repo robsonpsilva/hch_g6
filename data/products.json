@@ -105,7 +105,7 @@
       "name": "Wool & Whimsy",
       "isFeatured": true,
       "story": "Wool & Whimsy crafts cozy, hand-knitted accessories. We use only the finest natural wool to create warm, soft pieces that are as beautiful as they are comfortable, perfect for cold weather.",
-      "imagePath": "/collections/whool_whimsy.png",
+      "imagePath": "/collections/images/wool_&_whimsy/whool_whimsy.png",
       "productIds": [
         "6a",
         "6b",
@@ -125,7 +125,7 @@
       "name": "Paper & Ink",
       "isFeatured": false,
       "story": "Paper & Ink is a collective of illustrators and printmakers. We specialize in creating custom stationery, hand-bound journals, and limited-edition prints that celebrate the art of writing and design.",
-      "imagePath": "/collections/paper_ink.png",
+      "imagePath": "/collections/images/paper_&_ink/institutional_image/paper_ink.png",
       "productIds": [
         "7a",
         "7b",
