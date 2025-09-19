@@ -1,0 +1,717 @@
+[
+  {
+    "id": 1,
+    "name": "Clay & Glaze",
+    "isFeatured": true,
+    "story": "Our Clay & Glaze studio is dedicated to the art of pottery, where each piece is handcrafted from natural clay and finished with unique, durable glazes. We believe in creating functional art that brings warmth to your home.",
+    "imagePath": "/collections/clay_glaze.png",
+    "products": [
+      {
+        "id": "1a",
+        "name": "Ceramic Vase",
+        "url": "/collections/images/Clay & Glaze/ceramic_vase.png"
+      },
+      {
+        "id": "1b",
+        "name": "Glazed Bowl",
+        "url": "/collections/images/Clay & Glaze/glased_bowl.png"
+      },
+      {
+        "id": "1c",
+        "name": "Hand-thrown Mug",
+        "url": "/collections/images/Clay & Glaze/hand_thrown_mug.png"
+      },
+      {
+        "id": "1d",
+        "name": "Terracotta Jar",
+        "url": "/collections/images/Clay & Glaze/terracotta_jar.png"
+      },
+      {
+        "id": "1e",
+        "name": "Clay Plate",
+        "url": "/collections/images/Clay & Glaze/clay_plate.png"
+      },
+      {
+        "id": "1f",
+        "name": "Figurine Sculpture",
+        "url": "/collections/images/Clay & Glaze/figurine_sculpture.png"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "1g",
+        "name": "Ceramic Coasters",
+        "url": "/collections/images/Clay & Glaze/ceramic_coasters.png",
+        "price": 25.99,
+        "description": "Handcrafted ceramic coasters with a unique glaze finish, perfect for protecting your surfaces.",
+        "url_external": "#"
+      },
+      {
+        "id": "1h",
+        "name": "Pottery Mixing Bowl Set",
+        "url": "/collections/images/Clay & Glaze/pottery_mixing_bowl_set.png",
+        "price": 65.50,
+        "description": "A set of durable pottery mixing bowls, ideal for baking and meal prep.",
+        "url_external": "#"
+      },
+      {
+        "id": "1i",
+        "name": "Sake Cup Set",
+        "url": "/collections/images/Clay & Glaze/sake_cup_set.png",
+        "price": 32.75,
+        "description": "A traditional set of hand-thrown sake cups, perfect for enjoying your favorite beverages.",
+        "url_external": "#"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ethereal Glassworks",
+    "isFeatured": true,
+    "story": "At Ethereal Glassworks, we capture light and color in every piece of blown glass. Our artisans use traditional techniques to create whimsical ornaments and sculptures that look like they belong in a fairytale.",
+    "imagePath": "/collections/ethereal_glassworks.png",
+    "products": [
+      {
+        "id": "2a",
+        "name": "Blown Glass Vase",
+        "url": "/collections/images/Ethereal Glassworks/blown_glass_vase.png"
+      },
+      {
+        "id": "2b",
+        "name": "Glass Paperweight",
+        "url": "/collections/images/Ethereal Glassworks/glass_paperweight.png"
+      },
+      {
+        "id": "2c",
+        "name": "Crystal Orb",
+        "url": "/collections/images/Ethereal Glassworks/crystal_orb.png"
+      },
+      {
+        "id": "2d",
+        "name": "Stained Glass Panel",
+        "url": "/collections/images/Ethereal Glassworks/stained_glass_panel.png"
+      },
+      {
+        "id": "2e",
+        "name": "Glass Bell",
+        "url": "/collections/images/Ethereal Glassworks/glass_bell.png"
+      },
+      {
+        "id": "2f",
+        "name": "Blown Glass Ornament",
+        "url": "/collections/images/Ethereal Glassworks/blown_glass_ornament.png"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "2g",
+        "name": "Glass Tumbler Set",
+        "url": "/collections/images/Ethereal Glassworks/glass_tumbler_set.png",
+        "price": 49.90,
+        "description": "A set of beautifully crafted glass tumblers, perfect for daily use or special occasions.",
+        "url_external": "#"
+      },
+      {
+        "id": "2h",
+        "name": "Glass Decanter",
+        "url": "/collections/images/Ethereal Glassworks/glass_decanter.png",
+        "price": 89.99,
+        "description": "An elegant glass decanter designed to aerate your favorite wines.",
+        "url_external": "#"
+      },
+      {
+        "id": "2i",
+        "name": "Glass Coasters",
+        "url": "/collections/images/Ethereal Glassworks/glass_coasters.png",
+        "price": 28.00,
+        "description": "Hand-blown glass coasters that add a touch of color and whimsy to your home decor.",
+        "url_external": "#"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Glimmerstone Jewels",
+    "isFeatured": true,
+    "story": "Glimmerstone Jewels specializes in handmade, beaded jewelry. Our designers draw inspiration from vibrant cultures and the natural world, selecting each bead for its unique shape, color, and story.",
+    "imagePath": "/collections/glimmerstone_jewels.png",
+    "products": [
+      {
+        "id": "3a",
+        "name": "Beaded Necklace",
+        "url": "/collections/images/Glimmerstone Jewels/beaded_necklace.png"
+      },
+      {
+        "id": "3b",
+        "name": "Gemstone Bracelet",
+        "url": "/collections/images/Glimmerstone Jewels/gemstone_bracelet.png"
+      },
+      {
+        "id": "3c",
+        "name": "Crystal Earrings",
+        "url": "/collections/images/Glimmerstone Jewels/crystal_earrings.png"
+      },
+      {
+        "id": "3d",
+        "name": "Pendant Charm",
+        "url": "/collections/images/Glimmerstone Jewels/pendant_charm.png"
+      },
+      {
+        "id": "3e",
+        "name": "Silver Ring",
+        "url": "/collections/images/Glimmerstone Jewels/silver_ring.png"
+      },
+      {
+        "id": "3f",
+        "name": "Pearl Brooch",
+        "url": "/collections/images/Glimmerstone Jewels/pearl_brooch.png"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "3g",
+        "name": "Garnet Pendant",
+        "url": "/collections/images/Glimmerstone Jewels/garnet_pendant.png",
+        "price": 120.00,
+        "description": "A stunning garnet pendant set in a delicate silver frame, symbolizing passion and strength.",
+        "url_external": "#"
+      },
+      {
+        "id": "3h",
+        "name": "Turquoise Ring",
+        "url": "/collections/images/Glimmerstone Jewels/turquoise_ring.png",
+        "price": 95.50,
+        "description": "A handcrafted silver ring featuring a vibrant turquoise gemstone, perfect for a pop of color.",
+        "url_external": "#"
+      },
+      {
+        "id": "3i",
+        "name": "Amethyst Earrings",
+        "url": "/collections/images/Glimmerstone Jewels/amethyst_earrings.png",
+        "price": 78.99,
+        "description": "Elegant amethyst earrings that capture light and add a touch of royalty to any outfit.",
+        "url_external": "#"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Heritage Leathers",
+    "isFeatured": true,
+    "story": "Heritage Leathers Co. is committed to the timeless craft of leatherwork. We use full-grain leather to create wallets, bags, and accessories that are designed to last a lifetime and develop a beautiful patina over time.",
+    "imagePath": "/collections/heritage_leathers.png",
+    "products": [
+      {
+        "id": "4a",
+        "name": "Leather Wallet",
+        "url": "/collections/images/Heritage Leathers/leather_wallet.png"
+      },
+      {
+        "id": "4b",
+        "name": "Satchel Bag",
+        "url": "/collections/images/Heritage Leathers/satchel_bag.png"
+      },
+      {
+        "id": "4c",
+        "name": "Leather Belt",
+        "url": "/collections/images/Heritage Leathers/leather_belt.png"
+      },
+      {
+        "id": "4d",
+        "name": "Key Fob",
+        "url": "/collections/images/Heritage Leathers/key_fob.png"
+      },
+      {
+        "id": "4e",
+        "name": "Journal Cover",
+        "url": "/collections/images/Heritage Leathers/journal_cover.png"
+      },
+      {
+        "id": "4f",
+        "name": "Leather Card Holder",
+        "url": "/collections/images/Heritage Leathers/leather_card_holder.png"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "4g",
+        "name": "Leather Passport Holder",
+        "url": "/collections/images/Heritage Leathers/leather_passport_holder.png",
+        "price": 55.00,
+        "description": "Keep your passport safe and stylish with this handcrafted full-grain leather holder.",
+        "url_external": "#"
+      },
+      {
+        "id": "4h",
+        "name": "Leather Laptop Sleeve",
+        "url": "/collections/images/Heritage Leathers/leather_laptop_sleeve.png",
+        "price": 115.00,
+        "description": "A sleek and protective leather sleeve for your laptop, designed for durability and elegance.",
+        "url_external": "#"
+      },
+      {
+        "id": "4i",
+        "name": "Leather Cord Organizer",
+        "url": "/collections/images/Heritage Leathers/leather_cord_organizer.png",
+        "price": 18.50,
+        "description": "A small but essential accessory to keep your headphones and charging cords organized.",
+        "url_external": "#"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Timbercraft Artisans",
+    "isFeatured": true,
+    "story": "Timbercraft Artisans transforms raw wood into elegant, hand-carved sculptures. Each piece celebrates the natural grain and beauty of the wood, with a focus on intricate detail and organic, flowing forms.",
+    "imagePath": "/collections/timbercraft_artisans.png",
+    "products": [
+      {
+        "id": "5a",
+        "name": "Carved Wood Statue",
+        "url": "/collections/images/Timbercraft Artisans/carved_wood_statue.png"
+      },
+      {
+        "id": "5b",
+        "name": "Wooden Bowl",
+        "url": "/collections/images/Timbercraft Artisans/wooden_bowl.png"
+      },
+      {
+        "id": "5c",
+        "name": "Hand-carved Spoon",
+        "url": "/collections/images/Timbercraft Artisans/hand_carved_spoon.png"
+      },
+      {
+        "id": "5d",
+        "name": "Wooden Tray",
+        "url": "/collections/images/Timbercraft Artisans/wooden_tray.png"
+      },
+      {
+        "id": "5e",
+        "name": "Decorative Box",
+        "url": "/collections/images/Timbercraft Artisans/decorative_box.png"
+      },
+      {
+        "id": "5f",
+        "name": "Coasters",
+        "url": "/collections/images/Timbercraft Artisans/coasters.png"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "5g",
+        "name": "Wooden Cutting Board",
+        "url": "/collections/images/Timbercraft Artisans/wooden_cutting_board.png",
+        "price": 45.00,
+        "description": "A robust and beautiful wooden cutting board, ideal for food preparation or serving.",
+        "url_external": "#"
+      },
+      {
+        "id": "5h",
+        "name": "Wood-turned Salt Cellar",
+        "url": "/collections/images/Timbercraft Artisans/wood_turned_salt_cellar.png",
+        "price": 29.99,
+        "description": "A classic wood-turned salt cellar to keep your favorite salts close at hand while cooking.",
+        "url_external": "#"
+      },
+      {
+        "id": "5i",
+        "name": "Hand-carved Whistle",
+        "url": "/collections/images/Timbercraft Artisans/hand_carved_whistle.png",
+        "price": 15.00,
+        "description": "A small, intricately hand-carved wooden whistle, perfect as a unique gift or collector's item.",
+        "url_external": "#"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Wool & Whimsy",
+    "isFeatured": true,
+    "story": "Wool & Whimsy crafts cozy, hand-knitted accessories. We use only the finest natural wool to create warm, soft pieces that are as beautiful as they are comfortable, perfect for cold weather.",
+    "imagePath": "/collections/whool_whimsy.png",
+    "products": [
+      {
+        "id": "6a",
+        "name": "Knitted Scarf",
+        "url": "/collections/images/Wool & Whimsy/knitted_scarf.png"
+      },
+      {
+        "id": "6b",
+        "name": "Wool Beanie",
+        "url": "/collections/images/Wool & Whimsy/wool_beanie.png"
+      },
+      {
+        "id": "6c",
+        "name": "Hand-knit Gloves",
+        "url": "/collections/images/Wool & Whimsy/hand-knit_gloves.png"
+      },
+      {
+        "id": "6d",
+        "name": "Wool Blanket",
+        "url": "/collections/images/Wool & Whimsy/wool_blanket.png"
+      },
+      {
+        "id": "6e",
+        "name": "Woolen Socks",
+        "url": "/collections/images/Wool & Whimsy/woolen_socks.png"
+      },
+      {
+        "id": "6f",
+        "name": "Knitted Sweater",
+        "url": "/collections/images/Wool & Whimsy/knitted_sweater.png"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "6g",
+        "name": "Wool Headband",
+        "url": "/collections/images/Wool & Whimsy/wool_headband.png",
+        "price": 12.99,
+        "description": "A cozy, hand-knitted wool headband to keep your ears warm in style.",
+        "url_external": "#"
+      },
+      {
+        "id": "6h",
+        "name": "Felted Slippers",
+        "url": "/collections/images/Wool & Whimsy/felted_slippers.png",
+        "price": 38.00,
+        "description": "Soft and warm felted slippers, handcrafted for ultimate comfort at home.",
+        "url_external": "#"
+      },
+      {
+        "id": "6i",
+        "name": "Knitted Dog Sweater",
+        "url": "/collections/images/Wool & Whimsy/knitted_dog_sweater.png",
+        "price": 24.50,
+        "description": "A charming knitted sweater to keep your furry friend cozy during cold days.",
+        "url_external": "#"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Paper & Ink",
+    "isFeatured": false,
+    "story": "Paper & Ink is a collective of illustrators and printmakers. We specialize in creating custom stationery, hand-bound journals, and limited-edition prints that celebrate the art of writing and design.",
+    "imagePath": "/collections/paper_ink.png",
+    "products": [
+      {
+        "id": "7a",
+        "name": "Hand-bound Journal",
+        "url": "/collections/images/Paper & Ink/hand_bound_journal.png"
+      },
+      {
+        "id": "7b",
+        "name": "Letterpress Prints",
+        "url": "/collections/images/Paper & Ink/letterpress_prints.png"
+      },
+      {
+        "id": "7c",
+        "name": "Custom Stationery",
+        "url": "/collections/images/Paper & Ink/custom_stationery.png"
+      },
+      {
+        "id": "7d",
+        "name": "Artistic Note Cards",
+        "url": "/collections/images/Paper & Ink/artistic_note_cards.png"
+      },
+      {
+        "id": "7e",
+        "name": "Sketchbook",
+        "url": "/collections/images/Paper & Ink/sketchbook.png"
+      },
+      {
+        "id": "7f",
+        "name": "Ink Pen Set",
+        "url": "/collections/images/Paper & Ink/ink_pen_set.png"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "7g",
+        "name": "Handmade Envelopes",
+        "url": "/collections/images/Paper & Ink/handmade_envelopes.png",
+        "price": 15.00,
+        "description": "Handmade envelopes crafted with care, perfect for sending personalized letters and cards.",
+        "url_external": "#"
+      },
+      {
+        "id": "7h",
+        "name": "Calligraphy Set",
+        "url": "/collections/images/Paper & Ink/calligraphy_set.png",
+        "price": 35.99,
+        "description": "A complete calligraphy set for beginners and enthusiasts to master the art of elegant writing.",
+        "url_external": "#"
+      },
+      {
+        "id": "7i",
+        "name": "Personalized Wax Seal",
+        "url": "/collections/images/Paper & Ink/personalized_wax_seal.png",
+        "price": 28.50,
+        "description": "Add a touch of vintage elegance to your correspondence with a personalized wax seal.",
+        "url_external": "#"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Stitch & Thread",
+    "isFeatured": false,
+    "story": "The Stitch & Thread workshop focuses on bespoke embroidery and textile art. Every piece is a unique tapestry of intricate patterns and vibrant colors, bringing a touch of personalized elegance to any space.",
+    "imagePath": "/collections/stitch_thread.png",
+    "products": [
+      {
+        "id": "8a",
+        "name": "Embroidered Patch",
+        "url": "/collections/images/Stitch & Thread/embroidered_patch.png"
+      },
+      {
+        "id": "8b",
+        "name": "Textile Art",
+        "url": "/collections/images/Stitch & Thread/textile_art.png"
+      },
+      {
+        "id": "8c",
+        "name": "Hand-stitched Tapestry",
+        "url": "/collections/images/Stitch & Thread/hand_stitched_tapestry.png"
+      },
+      {
+        "id": "8d",
+        "name": "Patterned Cushion",
+        "url": "/collections/images/Stitch & Thread/patterned_cushion.png"
+      },
+      {
+        "id": "8e",
+        "name": "Silk Ribbon Art",
+        "url": "/collections/images/Stitch & Thread/silk_ribbon_art.png"
+      },
+      {
+        "id": "8f",
+        "name": "Custom Embroidered Bag",
+        "url": "/collections/images/Stitch & Thread/custom_embroined_bag.png"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "8g",
+        "name": "Embroidered Wall Hoop",
+        "url": "/collections/images/Stitch & Thread/embroidered_wall_hoop.png",
+        "price": 45.00,
+        "description": "A decorative embroidered wall hoop, perfect for adding a touch of personalized elegance to any space.",
+        "url_external": "#"
+      },
+      {
+        "id": "8h",
+        "name": "Quilted Blanket",
+        "url": "/collections/images/Stitch & Thread/quilted_blanket.png",
+        "price": 120.00,
+        "description": "A cozy, handmade quilted blanket with intricate patterns, ideal for snuggling up on the sofa.",
+        "url_external": "#"
+      },
+      {
+        "id": "8i",
+        "name": "Handmade Fabric Coasters",
+        "url": "/collections/images/Stitch & Thread/handmade_fabric_coasters.png",
+        "price": 22.99,
+        "description": "A set of four handmade fabric coasters, designed to protect your furniture with a touch of style.",
+        "url_external": "#"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Wicker & Weave",
+    "isFeatured": false,
+    "story": "Wicker & Weave creates beautiful, handcrafted furniture and decor from natural fibers. Our artisans use traditional weaving techniques to produce durable and elegant pieces that blend seamlessly with any rustic or modern design.",
+    "imagePath": "/collections/wicker_weave.png",
+    "products": [
+      {
+        "id": "9a",
+        "name": "Wicker Basket",
+        "url": "/collections/images/Wicker & Weave/wicker_basket.png"
+      },
+      {
+        "id": "9b",
+        "name": "Woven Chair",
+        "url": "/collections/images/Wicker & Weave/woven_chair.png"
+      },
+      {
+        "id": "9c",
+        "name": "Rattan Lamp",
+        "url": "/collections/images/Wicker & Weave/rattan_lamp.png"
+      },
+      {
+        "id": "9d",
+        "name": "Decorative Tray",
+        "url": "/collections/images/Wicker & Weave/decorative_tray.png"
+      },
+      {
+        "id": "9e",
+        "name": "Woven Wall Decor",
+        "url": "/collections/images/Wicker & Weave/woven_wall_decor.png"
+      },
+      {
+        "id": "9f",
+        "name": "Rope Planter",
+        "url": "/collections/images/Wicker & Weave/rope_planter.png"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "9g",
+        "name": "Woven Storage Box",
+        "url": "/collections/images/Wicker & Weave/woven_storage_box.png",
+        "price": 55.50,
+        "description": "A stylish woven storage box, perfect for decluttering and organizing any room with a natural touch.",
+        "url_external": "#"
+      },
+      {
+        "id": "9h",
+        "name": "Rattan Coasters",
+        "url": "/collections/images/Wicker & Weave/rattan_coasters.png",
+        "price": 19.99,
+        "description": "A set of woven rattan coasters that bring a rustic and elegant feel to your tabletops.",
+        "url_external": "#"
+      },
+      {
+        "id": "9i",
+        "name": "Seagrass Mat",
+        "url": "/collections/images/Wicker & Weave/seagrass_mat.png",
+        "price": 75.00,
+        "description": "A hand-woven seagrass mat, ideal for adding a natural, textured element to your living space.",
+        "url_external": "#"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Forged Metals",
+    "isFeatured": false,
+    "story": "Forged Metals is a studio dedicated to the ancient craft of blacksmithing. Our artisans forge unique iron and steel sculptures, tools, and home goods that combine raw strength with refined artistry.",
+    "imagePath": "/collections/forged_metals.png",
+    "products": [
+      {
+        "id": "10a",
+        "name": "Wrought Iron Candlestick",
+        "url": "/collections/images/Forged Metals/wrought_iron_candlestick.png"
+      },
+      {
+        "id": "10b",
+        "name": "Steel Bottle Opener",
+        "url": "/collections/images/Forged Metals/steel_bottle_opener.png"
+      },
+      {
+        "id": "10c",
+        "name": "Hand-forged Sculpture",
+        "url": "/collections/images/Forged Metals/hand_forged_sculpture.png"
+      },
+      {
+        "id": "10d",
+        "name": "Iron Grill",
+        "url": "/collections/images/Forged Metals/iron_grill.png"
+      },
+      {
+        "id": "10e",
+        "name": "Decorative Steel Hook",
+        "url": "/collections/images/Forged Metals/decorative_steel_hook.png"
+      },
+      {
+        "id": "10f",
+        "name": "Metal Art Piece",
+        "url": "/collections/images/Forged Metals/metal_art_piece.png"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "10g",
+        "name": "Hand-forged Fire Poker",
+        "url": "/collections/images/Forged Metals/hand_forged_fire_poker.png",
+        "price": 85.00,
+        "description": "A robust, hand-forged fire poker designed for durability and a classic look by the fireplace.",
+        "url_external": "#"
+      },
+      {
+        "id": "10h",
+        "name": "Wrought Iron Coasters",
+        "url": "/collections/images/Forged Metals/wrought_iron_coasters.png",
+        "price": 30.00,
+        "description": "A set of four heavy-duty wrought iron coasters that are as functional as they are decorative.",
+        "url_external": "#"
+      },
+      {
+        "id": "10i",
+        "name": "Forged Metal Bottle Rack",
+        "url": "/collections/images/Forged Metals/forged_metal_bottle_rack.png",
+        "price": 60.00,
+        "description": "An artistic and practical forged metal bottle rack, perfect for displaying your favorite wines.",
+        "url_external": "#"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Canvas & Brush",
+    "isFeatured": false,
+    "story": "Canvas & Brush is an artist-led studio where every painting tells a story. We specialize in a variety of mediums, from vivid oil paintings to subtle watercolors, capturing landscapes and portraits with deep emotion.",
+    "imagePath": "/collections/canvas_brush.png",
+    "products": [
+      {
+        "id": "11a",
+        "name": "Oil Painting",
+        "url": "https://via.placeholder.com/250/FF6347/FFFFFF?text=Oil+Painting"
+      },
+      {
+        "id": "11b",
+        "name": "Watercolor Portrait",
+        "url": "https://via.placeholder.com/250/4682B4/F5F5F5?text=Watercolor+Portrait"
+      },
+      {
+        "id": "11c",
+        "name": "Abstract Art",
+        "url": "https://via.placeholder.com/250/800080/FFFFFF?text=Abstract+Art"
+      },
+      {
+        "id": "11d",
+        "name": "Landscape Painting",
+        "url": "https://via.placeholder.com/250/B0E0E6/4B0082?text=Landscape+Painting"
+      },
+      {
+        "id": "11e",
+        "name": "Acrylic Canvas",
+        "url": "https://via.placeholder.com/250/F08080/800080?text=Acrylic+Canvas"
+      },
+      {
+        "id": "11f",
+        "name": "Mixed Media",
+        "url": "https://via.placeholder.com/250/5F9EA0/FFFFFF?text=Mixed+Media"
+      }
+    ],
+    "recommendedProducts": [
+      {
+        "id": "11g",
+        "name": "Sketchbook with Leather Cover",
+        "url": "/collections/images/Canvas & Brush/sketchbook_with_leather_cover.png",
+        "price": 32.99,
+        "description": "A high-quality sketchbook with a durable leather cover, perfect for artists on the go.",
+        "url_external": "#"
+      },
+      {
+        "id": "11h",
+        "name": "Custom Pet Portrait",
+        "url": "/collections/images/Canvas & Brush/custom_pet_portrait.png",
+        "price": 150.00,
+        "description": "A unique, hand-painted custom portrait of your beloved pet, created with care and detail.",
+        "url_external": "#"
+      },
+      {
+        "id": "11i",
+        "name": "Acrylic Paint Set",
+        "url": "/collections/images/Canvas & Brush/acrylic_paint_set.png",
+        "price": 45.00,
+        "description": "A versatile set of acrylic paints, offering a wide range of vivid colors for all your projects.",
+        "url_external": "#"
+      }
+    ]
+  }
+]

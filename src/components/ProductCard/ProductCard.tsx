@@ -1,19 +1,32 @@
 // components/ProductCard.tsx
 
 import Image from 'next/image';
+import Link from 'next/link';
 
-// Definimos o tipo das propriedades (props) que o componente irá receber
+// Definimos o tipo das propriedades (props) que o componente irá receber,
+// tornando 'url_external' opcional com o `?`
 interface ProductCardProps {
   imageUrl: string;
   description: string;
   price: number;
+  url_external?: string;
 }
 
-export default function ProductCard({ imageUrl, description, price }: ProductCardProps) {
-  // A tag 'Image' do Next.js é otimizada para performance
-  // e lida automaticamente com a responsividade da imagem.
+export default function ProductCard({
+  imageUrl,
+  description,
+  price,
+  url_external = '#' // Definimos o valor padrão aqui
+}: ProductCardProps) {
+
+  // A partir do Next.js 13, as props são aplicadas diretamente no Link.
   return (
-    <div className="h-full flex flex-col rounded-lg overflow-hidden shadow-md transition-shadow hover:shadow-xl">
+    <Link
+      href={url_external}
+      target={url_external === '#' ? '_self' : '_blank'}
+      rel="noopener noreferrer"
+      className="h-full flex flex-col rounded-lg overflow-hidden shadow-md transition-shadow hover:shadow-xl"
+    >
       {/* Imagem do Produto */}
       <div className="relative w-full h-48">
         <Image
@@ -31,6 +44,6 @@ export default function ProductCard({ imageUrl, description, price }: ProductCar
           ${price.toFixed(2)}
         </p>
       </div>
-    </div>
+    </Link>
   );
 }
