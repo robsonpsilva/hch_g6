@@ -25,7 +25,7 @@
       "name": "Ethereal Glassworks",
       "isFeatured": true,
       "story": "At Ethereal Glassworks, we capture light and color in every piece of blown glass. Our artisans use traditional techniques to create whimsical ornaments and sculptures that look like they belong in a fairytale.",
-      "imagePath": "/collections/ethereal_glassworks.png",
+      "imagePath": "/collections/images/ethereal_glassworks/institutional_image/ethereal_glassworks.png",
       "productIds": [
         "2a",
         "2b",
@@ -45,7 +45,7 @@
       "name": "Glimmerstone Jewels",
       "isFeatured": true,
       "story": "Glimmerstone Jewels specializes in handmade, beaded jewelry. Our designers draw inspiration from vibrant cultures and the natural world, selecting each bead for its unique shape, color, and story.",
-      "imagePath": "/collections/glimmerstone_jewels.png",
+      "imagePath": "/collections/images/glimmerstone_jewels/institutional_image/glimmerstone_jewels.png",
       "productIds": [
         "3a",
         "3b",
@@ -65,7 +65,7 @@
       "name": "Heritage Leathers",
       "isFeatured": true,
       "story": "Heritage Leathers Co. is committed to the timeless craft of leatherwork. We use full-grain leather to create wallets, bags, and accessories that are designed to last a lifetime and develop a beautiful patina over time.",
-      "imagePath": "/collections/heritage_leathers.png",
+      "imagePath": "/collections/images/heritage_leathers/institutional_image/heritage_leathers.png",
       "productIds": [
         "4a",
         "4b",
@@ -85,7 +85,7 @@
       "name": "Timbercraft Artisans",
       "isFeatured": true,
       "story": "Timbercraft Artisans transforms raw wood into elegant, hand-carved sculptures. Each piece celebrates the natural grain and beauty of the wood, with a focus on intricate detail and organic, flowing forms.",
-      "imagePath": "/collections/timbercraft_artisans.png",
+      "imagePath": "/collections/images/timbercraft_artisans/institutional_image/timbercraft_artisans.png",
       "productIds": [
         "5a",
         "5b",
@@ -105,7 +105,7 @@
       "name": "Wool & Whimsy",
       "isFeatured": true,
       "story": "Wool & Whimsy crafts cozy, hand-knitted accessories. We use only the finest natural wool to create warm, soft pieces that are as beautiful as they are comfortable, perfect for cold weather.",
-      "imagePath": "/collections/images/wool_&_whimsy/whool_whimsy.png",
+      "imagePath": "/collections/images/wool_&_whimsy/institutional_image/whool_whimsy.png",
       "productIds": [
         "6a",
         "6b",
@@ -145,7 +145,7 @@
       "name": "Stitch & Thread",
       "isFeatured": false,
       "story": "The Stitch & Thread workshop focuses on bespoke embroidery and textile art. Every piece is a unique tapestry of intricate patterns and vibrant colors, bringing a touch of personalized elegance to any space.",
-      "imagePath": "/collections/stitch_thread.png",
+      "imagePath": "/collections/images/stitch_&_thread/institutional_image/stitch_thread.png",
       "productIds": [
         "8a",
         "8b",
@@ -165,7 +165,7 @@
       "name": "Wicker & Weave",
       "isFeatured": false,
       "story": "Wicker & Weave creates beautiful, handcrafted furniture and decor from natural fibers. Our artisans use traditional weaving techniques to produce durable and elegant pieces that blend seamlessly with any rustic or modern design.",
-      "imagePath": "/collections/wicker_weave.png",
+      "imagePath": "/collections/images/wicker_&_weave/institutional_image/wicker_weave.png",
       "productIds": [
         "9a",
         "9b",
@@ -185,7 +185,7 @@
       "name": "Forged Metals",
       "isFeatured": false,
       "story": "Forged Metals is a studio dedicated to the ancient craft of blacksmithing. Our artisans forge unique iron and steel sculptures, tools, and home goods that combine raw strength with refined artistry.",
-      "imagePath": "/collections/forged_metals.png",
+      "imagePath": "/collections/images/forged_metals/institutional_image/forged_metals.png",
       "productIds": [
         "10a",
         "10b",
