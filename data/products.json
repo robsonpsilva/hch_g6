@@ -205,7 +205,7 @@
       "name": "Canvas & Brush",
       "isFeatured": false,
       "story": "Canvas & Brush is an artist-led studio where every painting tells a story. We specialize in a variety of mediums, from vivid oil paintings to subtle watercolors, capturing landscapes and portraits with deep emotion.",
-      "imagePath": "/collections/canvas_brush.png",
+      "imagePath": "/collections/images/canvas_&_brush/institutional_image/canvas_brush.png",
       "productIds": [
         "11a",
         "11b",
@@ -1125,7 +1125,7 @@
     {
       "id": "11a",
       "name": "Oil Painting",
-      "imageUrl": "https://via.placeholder.com/250/FF6347/FFFFFF?text=Oil+Painting",
+      "imageUrl": "/collections/images/canvas_&_brush/oil_painting.png",
       "price": 250.00,
       "description": "A vivid oil painting on canvas, featuring a rich palette and expressive brushstrokes. A one-of-a-kind art piece.",
       "url_external": "#",
@@ -1135,7 +1135,7 @@
     {
       "id": "11b",
       "name": "Watercolor Portrait",
-      "imageUrl": "https://via.placeholder.com/250/4682B4/F5F5F5?text=Watercolor+Portrait",
+      "imageUrl": "/collections/images/canvas_&_brush/watercolor_portrait.png",
       "price": 180.00,
       "description": "A delicate watercolor portrait with soft lines and subtle colors. Perfect for a quiet, contemplative space.",
       "url_external": "#",
@@ -1145,7 +1145,7 @@
     {
       "id": "11c",
       "name": "Abstract Art",
-      "imageUrl": "https://via.placeholder.com/250/800080/FFFFFF?text=Abstract+Art",
+      "imageUrl": "/collections/images/canvas_&_brush/abstract_art.png",
       "price": 200.00,
       "description": "An abstract art piece with bold shapes and a vibrant color scheme. Adds a modern and energetic feel to any wall.",
       "url_external": "#",
@@ -1155,7 +1155,7 @@
     {
       "id": "11d",
       "name": "Landscape Painting",
-      "imageUrl": "https://via.placeholder.com/250/B0E0E6/4B0082?text=Landscape+Painting",
+      "imageUrl": "/collections/images/canvas_&_brush/landscape_painting.png",
       "price": 190.00,
       "description": "A serene landscape painting that captures a beautiful natural scene. Brings a sense of calm and tranquility to your home.",
       "url_external": "#",
@@ -1165,7 +1165,7 @@
     {
       "id": "11e",
       "name": "Acrylic Canvas",
-      "imageUrl": "https://via.placeholder.com/250/F08080/800080?text=Acrylic+Canvas",
+      "imageUrl": "/collections/images/canvas_&_brush/acrylic_canvas.png",
       "price": 160.00,
       "description": "An acrylic painting on canvas with a dynamic and colorful composition. A perfect statement piece for modern decor.",
       "url_external": "#",
@@ -1175,7 +1175,7 @@
     {
       "id": "11f",
       "name": "Mixed Media",
-      "imageUrl": "https://via.placeholder.com/250/5F9EA0/FFFFFF?text=Mixed+Media",
+      "imageUrl": "/collections/images/canvas_&_brush/mixed_media.png",
       "price": 175.00,
       "description": "A mixed media piece combining different textures and elements. A unique and complex work of art.",
       "url_external": "#",
@@ -1185,7 +1185,7 @@
     {
       "id": "11g",
       "name": "Sketchbook with Leather Cover",
-      "imageUrl": "/collections/images/Canvas & Brush/sketchbook_with_leather_cover.png",
+      "imageUrl": "/collections/images/canvas_&_brush/sketchbook_with_leather_cover.png",
       "price": 32.99,
       "description": "A high-quality sketchbook with a durable leather cover, perfect for artists on the go.",
       "url_external": "#",
@@ -1195,7 +1195,7 @@
     {
       "id": "11h",
       "name": "Custom Pet Portrait",
-      "imageUrl": "/collections/images/Canvas & Brush/custom_pet_portrait.png",
+      "imageUrl": "/collections/images/canvas_&_brush/custom_pet_portrait.png",
       "price": 150.00,
       "description": "A unique, hand-painted custom portrait of your beloved pet, created with care and detail.",
       "url_external": "#",
@@ -1205,7 +1205,7 @@
     {
       "id": "11i",
       "name": "Acrylic Paint Set",
-      "imageUrl": "/collections/images/Canvas & Brush/acrylic_paint_set.png",
+      "imageUrl": "/collections/images/canvas_&_brush/acrylic_paint_set.png",
       "price": 45.00,
       "description": "A versatile set of acrylic paints, offering a wide range of vivid colors for all your projects.",
       "url_external": "#",
