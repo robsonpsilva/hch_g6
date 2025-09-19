@@ -4,44 +4,44 @@
     "name": "Clay & Glaze",
     "isFeatured": true,
     "story": "Our Clay & Glaze studio is dedicated to the art of pottery, where each piece is handcrafted from natural clay and finished with unique, durable glazes. We believe in creating functional art that brings warmth to your home.",
-    "imagePath": "/collections/clay_glaze.png",
+    "imagePath": "/collections/images/clay_&_glaze/institutional_image/clay_glaze.png",
     "products": [
       {
         "id": "1a",
         "name": "Ceramic Vase",
-        "url": "/collections/images/Clay & Glaze/ceramic_vase.png"
+        "url": "/collections/images/clay_&_glaze/ceramic_vase.png"
       },
       {
         "id": "1b",
         "name": "Glazed Bowl",
-        "url": "/collections/images/Clay & Glaze/glased_bowl.png"
+        "url": "/collections/images/clay_&_glaze/glased_bowl.png"
       },
       {
         "id": "1c",
         "name": "Hand-thrown Mug",
-        "url": "/collections/images/Clay & Glaze/hand_thrown_mug.png"
+        "url": "/collections/images/clay_&_glaze/hand_thrown_mug.png"
       },
       {
         "id": "1d",
         "name": "Terracotta Jar",
-        "url": "/collections/images/Clay & Glaze/terracotta_jar.png"
+        "url": "/collections/images/clay_&_glaze/terracotta_jar.png"
       },
       {
         "id": "1e",
         "name": "Clay Plate",
-        "url": "/collections/images/Clay & Glaze/clay_plate.png"
+        "url": "/collections/images/clay_&_glaze/clay_plate.png"
       },
       {
         "id": "1f",
         "name": "Figurine Sculpture",
-        "url": "/collections/images/Clay & Glaze/figurine_sculpture.png"
+        "url": "/collections/images/clay_&_glaze/figurine_sculpture.png"
       }
     ],
     "recommendedProducts": [
       {
         "id": "1g",
         "name": "Ceramic Coasters",
-        "url": "/collections/images/Clay & Glaze/ceramic_coasters.png",
+        "url": "/collections/images/clay_&_glaze/ceramic_coasters.png",
         "price": 25.99,
         "description": "Handcrafted ceramic coasters with a unique glaze finish, perfect for protecting your surfaces.",
         "url_external": "#"
@@ -49,7 +49,7 @@
       {
         "id": "1h",
         "name": "Pottery Mixing Bowl Set",
-        "url": "/collections/images/Clay & Glaze/pottery_mixing_bowl_set.png",
+        "url": "/collections/images/clay_&_glaze/pottery_mixing_bowl_set.png",
         "price": 65.50,
         "description": "A set of durable pottery mixing bowls, ideal for baking and meal prep.",
         "url_external": "#"
@@ -57,7 +57,7 @@
       {
         "id": "1i",
         "name": "Sake Cup Set",
-        "url": "/collections/images/Clay & Glaze/sake_cup_set.png",
+        "url": "/collections/images/clay_&_glaze/sake_cup_set.png",
         "price": 32.75,
         "description": "A traditional set of hand-thrown sake cups, perfect for enjoying your favorite beverages.",
         "url_external": "#"

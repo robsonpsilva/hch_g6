@@ -2,24 +2,124 @@ import Image from "next/image";
 import Link from 'next/link';
 import ProductCard from "@app/components/ProductCard/ProductCard";
 
-// 1. Defina a interface para o tipo 'Product'
 interface Product {
-  id: number;
+  id: string; // O ID do produto no JSON é uma string
   imageUrl: string;
   description: string;
   price: number;
+  isFeatured: boolean; // Adicione o campo isFeatured
 }
 
-// O componente agora é uma função assíncrona
+// 1. Defina a interface para o tipo 'Collection'
+interface Collection {
+  id: number;
+  isFeatured: boolean;
+  productIds: string[];
+}
+
 export default async function Page() {
   const res = await fetch('http://localhost:3000/api/products');
-  // 2. Converta a resposta JSON para o tipo 'Product[]'
-  const products: Product[] = await res.json();
-  
-  if (!products) {
+  const data = await res.json();
+  const products: Product[] = data.products;
+  const collections: Collection[] = data.collections;
+
+  if (!products || !collections) {
     return <div>Loading products...</div>;
   }
 
+  // 2. Crie uma função para buscar os produtos em destaque
+  const getFeaturedProducts = (): Product[] => {
+    const featuredProducts: Product[] = [];
+    const featuredCollections = collections.filter(collection => collection.isFeatured);
+    const nonFeaturedCollections = collections.filter(collection => !collection.isFeatured);
+    
+    // Mapeamento para rastrear os índices de cada coleção
+    const collectionIndices: { [key: number]: number } = {};
+    featuredCollections.forEach(collection => {
+      collectionIndices[collection.id] = 0;
+    });
+
+    // Mapeamento de IDs de produto para objetos de produto
+    const productMap = new Map(products.map(product => [product.id, product]));
+
+    let currentCollectionIndex = 0;
+    let fallbackIndex = 0; // para produtos não featured
+    
+    // Preencha até 10 produtos
+    while (featuredProducts.length < 10) {
+      if (featuredCollections.length === 0 && nonFeaturedCollections.length === 0) {
+        break; // Saia se não houver mais coleções
+      }
+      
+      const collectionsToIterate = featuredCollections.length > 0 ? featuredCollections : nonFeaturedCollections;
+      const currentCollection = collectionsToIterate[currentCollectionIndex];
+
+      const currentProductIds = currentCollection.productIds;
+      const currentProductIndex = collectionIndices[currentCollection.id] || 0;
+
+      if (currentProductIndex < currentProductIds.length) {
+        const productId = currentProductIds[currentProductIndex];
+        const product = productMap.get(productId);
+
+        if (product && product.isFeatured) {
+            featuredProducts.push(product);
+        } else if (featuredCollections.length === 0) {
+            // Se já esgotamos as coleções featured, usamos qualquer produto
+            if (product && !featuredProducts.includes(product)) {
+                featuredProducts.push(product);
+            }
+        }
+        
+        // Avance para o próximo produto na coleção
+        collectionIndices[currentCollection.id] = currentProductIndex + 1;
+      }
+
+      // Vá para a próxima coleção
+      currentCollectionIndex = (currentCollectionIndex + 1) % collectionsToIterate.length;
+
+      // Se a fila de destaque está vazia, e não há mais produtos featured, comece a pegar produtos não-featured
+      if (featuredProducts.length < 10 && currentCollectionIndex === 0) {
+        let anyNewProductAdded = false;
+        
+        for (const collection of nonFeaturedCollections) {
+            const currentProductIds = collection.productIds;
+            const currentProductIndex = collectionIndices[collection.id] || 0;
+
+            if (currentProductIndex < currentProductIds.length) {
+                const productId = currentProductIds[currentProductIndex];
+                const product = productMap.get(productId);
+                
+                if (product && !featuredProducts.includes(product)) {
+                    featuredProducts.push(product);
+                    anyNewProductAdded = true;
+                    collectionIndices[collection.id] = currentProductIndex + 1;
+                    if (featuredProducts.length >= 10) break;
+                }
+            }
+        }
+
+        if (!anyNewProductAdded && featuredProducts.length < 10) {
+            // Se nenhuma nova coleção foi encontrada, e ainda não temos 10 produtos
+            // Pegue os próximos 10 produtos do json original, mesmo que se repitam
+            for (let i = 0; featuredProducts.length < 10 && i < 10; i++) {
+                if (products[i]) {
+                    if (!featuredProducts.includes(products[i])) {
+                        featuredProducts.push(products[i]);
+                    }
+                }
+            }
+        }
+    }
+  }
+  
+    return featuredProducts;
+  };
+
+  const featuredProducts = getFeaturedProducts();
+
+  const primaryProducts = featuredProducts.slice(0, 3);
+  const secondaryProducts = featuredProducts.slice(3, 10);
+  
   return (
     <div className="mx-auto max-w-7xl px-[10px] w-[100vw]">
       <div className="relative h-[60vh] md:h-[75vh] flex items-center justify-center text-center border-2 border-slate-800">
@@ -46,7 +146,7 @@ export default async function Page() {
       <h1 className="text-3xl font-bold text-center text-primary-800">Featured Products</h1>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-        {products.slice(0, 3).map(product => (
+        {primaryProducts.map(product => (
           <ProductCard 
             key={product.id}
             description={product.description}
@@ -57,15 +157,15 @@ export default async function Page() {
       </div>
       <div className="hidden lg:grid grid-cols-4 grid-rows-2 gap-6 mt-12">
         <div className="col-span-1 row-span-2">
-          {products[3] && (
+          {secondaryProducts[0] && (
             <ProductCard
-              imageUrl={products[3].imageUrl}
-              description={products[3].description}
-              price={products[3].price}
+              imageUrl={secondaryProducts[0].imageUrl}
+              description={secondaryProducts[0].description}
+              price={secondaryProducts[0].price}
             />
           )}
         </div>
-        {products.slice(4, 7).map(product => (
+        {secondaryProducts.slice(1, 4).map(product => (
           <ProductCard
             key={product.id}
             imageUrl={product.imageUrl}
@@ -73,8 +173,7 @@ export default async function Page() {
             price={product.price}
           />
         ))}
-
-        {products.slice(7, 10).map(product => (
+        {secondaryProducts.slice(4, 7).map(product => (
           <ProductCard
             key={product.id}
             imageUrl={product.imageUrl}
