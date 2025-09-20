@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 
 export default async function CollectionsPage() {
 
-  const res = await fetch('http://localhost:3000/api/collections');
+  const res = await fetch('http://localhost:3000/api/products');
 
   if (!res.ok) {
     // Lida com a falha na busca de dados
