@@ -31,7 +31,6 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              {/* Substitua o SVG abaixo pelo seu ícone de logo */}
               <HandcraftedIcon/>
               <span className="text-2xl font-bold text-white">Handcrafted Heaven</span>
             </Link>
