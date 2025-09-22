@@ -147,39 +147,47 @@ export default async function Page() {
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
         {primaryProducts.map(product => (
-          <ProductCard 
-            key={product.id}
-            description={product.description}
-            price={product.price}
-            imageUrl={product.imageUrl}
-          />
+          <Link key={product.id} href={`/product_detail/${product.id}` } passHref>
+            <ProductCard 
+              key={product.id}
+              description={product.description}
+              price={product.price}
+              imageUrl={product.imageUrl}
+            />
+          </Link>
         ))}
       </div>
       <div className="hidden lg:grid grid-cols-4 grid-rows-2 gap-6 mt-12">
         <div className="col-span-1 row-span-2">
           {secondaryProducts[0] && (
-            <ProductCard
-              imageUrl={secondaryProducts[0].imageUrl}
-              description={secondaryProducts[0].description}
-              price={secondaryProducts[0].price}
-            />
+            <Link href={`/product_detail/${secondaryProducts[0].id}`} passHref>
+              <ProductCard
+                imageUrl={secondaryProducts[0].imageUrl}
+                description={secondaryProducts[0].description}
+                price={secondaryProducts[0].price}
+              />
+              </Link>
           )}
         </div>
         {secondaryProducts.slice(1, 4).map(product => (
-          <ProductCard
-            key={product.id}
-            imageUrl={product.imageUrl}
-            description={product.description}
-            price={product.price}
-          />
+          <Link key={product.id} href={`/product_detail/${product.id}`} passHref>
+            <ProductCard
+              key={product.id}
+              imageUrl={product.imageUrl}
+              description={product.description}
+              price={product.price}
+            />
+          </Link>
         ))}
         {secondaryProducts.slice(4, 7).map(product => (
-          <ProductCard
-            key={product.id}
-            imageUrl={product.imageUrl}
-            description={product.description}
-            price={product.price}
-          />
+          <Link key={product.id} href={`/product_detail/${product.id}`} passHref>
+            <ProductCard
+              key={product.id}
+              imageUrl={product.imageUrl}
+              description={product.description}
+              price={product.price}
+            />
+          </Link>
         ))}
       </div>
 

@@ -21,12 +21,7 @@ export default function ProductCard({
 
   // A partir do Next.js 13, as props são aplicadas diretamente no Link.
   return (
-    <Link
-      href={url_external}
-      target={url_external === '#' ? '_self' : '_blank'}
-      rel="noopener noreferrer"
-      className="h-full flex flex-col rounded-lg overflow-hidden shadow-md transition-shadow hover:shadow-xl"
-    >
+    <>
       {/* Imagem do Produto */}
       <div className="relative w-full h-48">
         <Image
@@ -44,6 +39,6 @@ export default function ProductCard({
           ${price.toFixed(2)}
         </p>
       </div>
-    </Link>
+    </>
   );
 }
