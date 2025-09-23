@@ -1,5 +1,9 @@
 // src/app/product_detail/[id]/page.tsx
 import ProductClient from './ProductClient';
+import productsData from '../../../../data/products.json';
+
+// Importa o tipo PageProps do global
+// (O tipo é global, não precisa importar, mas pode ser referenciado)
 
 interface Review {
   customerName: string;
@@ -26,19 +30,26 @@ interface Collection {
   productIds: string[];
 }
 
-// A tipagem é feita diretamente no parâmetro da função para evitar o conflito
-export default async function ProductPage({
-  params,
-}: {
-  params: { id: string };
-}) {
-  const { id }  = params;
+// Corrige para usar PageProps conforme o arquivo gerado
+export default async function ProductPage(props: PageProps<'/product_detail/[id]'>) {
+  const { id } = await props.params;
 
-  // Busca os dados da API
-  const res = await fetch('http://localhost:3000/api/products');
-  const data = await res.json();
-  const products: Product[] = data.products;
-  const collections: Collection[] = data.collections;
+  let products: Product[] = [];
+  let collections: Collection[] = [];
+
+  // Detecta ambiente de build/prerender
+  const isBuild = typeof window === 'undefined' && process.env.NODE_ENV === 'production';
+  if (isBuild) {
+    // Usa dados mockados do arquivo JSON
+    products = productsData.products as Product[];
+    collections = productsData.collections as Collection[];
+  } else {
+    // Busca os dados da API normalmente
+    const res = await fetch('http://localhost:3000/api/products');
+    const data = await res.json();
+    products = data.products;
+    collections = data.collections;
+  }
 
   // Encontra o produto específico pelo ID
   const product = products.find(p => p.id === id);

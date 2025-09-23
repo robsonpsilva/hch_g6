@@ -42,8 +42,7 @@ export default async function Page() {
     // Mapeamento de IDs de produto para objetos de produto
     const productMap = new Map(products.map(product => [product.id, product]));
 
-    let currentCollectionIndex = 0;
-    // let fallbackIndex = 0; // para produtos não featured
+  let currentCollectionIndex = 0;
     
     // Preencha até 10 produtos
     while (featuredProducts.length < 10) {
