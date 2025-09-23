@@ -1,6 +1,5 @@
 // components/ProductCard.tsx
 import Image from 'next/image';
-import Link from 'next/link';
 
 interface ProductCardProps {
   imageUrl: string;
@@ -13,7 +12,6 @@ export default function ProductCard({
   imageUrl,
   description,
   price,
-  url_external = '#',
 }: ProductCardProps) {
   return (
     <div

@@ -1,5 +1,6 @@
 // src/components/CuratedCollection.jsx
 import React from 'react';
+import Image from 'next/image'
 
 type ImageItem = {
   id: string | number;
@@ -33,10 +34,12 @@ const CuratedCollection: React.FC<CuratedCollectionProps> = ({ images }) => {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
         {images.map(image => (
           <div key={image.id} className="flex flex-col items-center">
-            <img 
+            <Image 
               src={image.url} 
               alt={image.name} 
               className="w-full h-auto rounded-lg shadow-md" 
+              width={180}
+              height={180}
             />
             <p className="mt-2 text-center text-sm font-medium text-gray-800">
               {image.name}
