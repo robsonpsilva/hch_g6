@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import ImageGallery from "@app/components/ImageGallery/ImageGallery";
 import CuratedCollection from "@app/components/CuratedCollections/CuratedCollections";
 import ProductCard from "@app/components/ProductCard/ProductCard";
+import Link from 'next/link';
 
 // Definindo as interfaces do JSON original
 interface ProductData {
@@ -100,13 +101,15 @@ export default function CollectionsClient({ collections: initialCollections }: {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {recommendedProducts.map(product => (
-              <ProductCard
-                key={product.id}
-                description={product.description}
-                price={product.price}
-                imageUrl={product.imageUrl}
-                url_external={product.url_external}
-              />
+              <Link key={product.id} href={`/product_detail/${product.id}`} passHref>
+                <ProductCard
+                  key={product.id}
+                  description={product.description}
+                  price={product.price}
+                  imageUrl={product.imageUrl}
+                  url_external={product.url_external}
+                />
+              </Link>   
             ))}
           </div>
         </div>

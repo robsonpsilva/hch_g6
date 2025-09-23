@@ -16,8 +16,7 @@ export default function ProductCard({
   url_external = '#',
 }: ProductCardProps) {
   return (
-    <Link
-      href={url_external}
+    <div
       className="block w-full h-full bg-white rounded-lg shadow hover:shadow-md overflow-hidden"
     >
       {/* Imagem do Produto */}
@@ -37,6 +36,6 @@ export default function ProductCard({
           R$ {price.toFixed(2)}
         </p>
       </div>
-    </Link>
+    </div>
   );
 }

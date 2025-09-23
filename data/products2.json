@@ -231,12 +231,11 @@
         "/collections/images/clay_&_glaze/ceramic_vase_top.png",
         "/collections/images/clay_&_glaze/ceramic_vase_styled.png"
       ],
-      "price": 55.0,
+      "price": 55.00,
       "description": "Elegant ceramic vase, hand-painted with a smooth, durable finish. Perfect for fresh or dried flowers.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 1.2
+      "isFeatured": true
     },
     {
       "id": "1b",
@@ -247,12 +246,11 @@
         "/collections/images/clay_&_glaze/glased_bowl.png",
         "/collections/images/clay_&_glaze/glased_bowl.png"
       ],
-      "price": 35.0,
+      "price": 35.00,
       "description": "Hand-thrown glazed bowl with a unique speckled pattern. Ideal for serving salads or as a decorative piece.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.9
+      "isFeatured": false
     },
     {
       "id": "1c",
@@ -263,12 +261,11 @@
         "/collections/images/clay_&_glaze/hand_thrown_mug.png",
         "/collections/images/clay_&_glaze/hand_thrown_mug.png"
       ],
-      "price": 22.5,
+      "price": 22.50,
       "description": "A sturdy hand-thrown mug with an ergonomic handle. Keeps your morning coffee or tea warm.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.4
+      "isFeatured": false
     },
     {
       "id": "1d",
@@ -279,12 +276,11 @@
         "/collections/images/clay_&_glaze/terracotta_jar.png",
         "/collections/images/clay_&_glaze/terracotta_jar.png"
       ],
-      "price": 45.0,
+      "price": 45.00,
       "description": "A classic terracotta jar for storage or decoration, perfect for adding a rustic touch to your kitchen.",
       "url_external": "#",
       "isAvailable": false,
-      "isFeatured": false,
-      "rating": 1.1
+      "isFeatured": false
     },
     {
       "id": "1e",
@@ -295,12 +291,11 @@
         "/collections/images/clay_&_glaze/clay_plate.png",
         "/collections/images/clay_&_glaze/clay_plate.png"
       ],
-      "price": 28.0,
+      "price": 28.00,
       "description": "A minimalist clay plate with a natural, unglazed finish. Great for everyday use or special occasions.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.4
+      "isFeatured": false
     },
     {
       "id": "1f",
@@ -311,12 +306,11 @@
         "/collections/images/clay_&_glaze/figurine_sculpture.png",
         "/collections/images/clay_&_glaze/figurine_sculpture.png"
       ],
-      "price": 75.0,
+      "price": 75.00,
       "description": "A delicate figurine sculpture, hand-carved from clay. Adds an artistic element to any shelf or table.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.3
+      "isFeatured": false
     },
     {
       "id": "1g",
@@ -331,8 +325,7 @@
       "description": "Handcrafted ceramic coasters with a unique glaze finish, perfect for protecting your surfaces.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.9
+      "isFeatured": false
     },
     {
       "id": "1h",
@@ -343,12 +336,11 @@
         "/collections/images/clay_&_glaze/pottery_mixing_bowl_set.png",
         "/collections/images/clay_&_glaze/pottery_mixing_bowl_set.png"
       ],
-      "price": 65.5,
+      "price": 65.50,
       "description": "A set of durable pottery mixing bowls, ideal for baking and meal prep.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.3
+      "isFeatured": false
     },
     {
       "id": "1i",
@@ -363,8 +355,7 @@
       "description": "A traditional set of hand-thrown sake cups, perfect for enjoying your favorite beverages.",
       "url_external": "#",
       "isAvailable": false,
-      "isFeatured": false,
-      "rating": 1.0
+      "isFeatured": false
     },
     {
       "id": "2a",
@@ -375,12 +366,11 @@
         "/collections/images/ethereal_glassworks/blown_glass_vase.png",
         "/collections/images/ethereal_glassworks/blown_glass_vase.png"
       ],
-      "price": 85.0,
+      "price": 85.00,
       "description": "An elegant, hand-blown glass vase that captures light and color beautifully. A true centerpiece for your home.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 2.2
+      "isFeatured": true
     },
     {
       "id": "2b",
@@ -391,12 +381,11 @@
         "/collections/images/ethereal_glassworks/glass_paperweight.png",
         "/collections/images/ethereal_glassworks/glass_paperweight.png"
       ],
-      "price": 25.0,
+      "price": 25.00,
       "description": "A vibrant glass paperweight with a swirling inner design. Adds a pop of color to any desk.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.0
+      "isFeatured": false
     },
     {
       "id": "2c",
@@ -407,12 +396,11 @@
         "/collections/images/ethereal_glassworks/crystal_orb.png",
         "/collections/images/ethereal_glassworks/crystal_orb.png"
       ],
-      "price": 45.0,
+      "price": 45.00,
       "description": "A perfectly smooth crystal orb, ideal for display or meditation. Captures and refracts light in a magical way.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.3
+      "isFeatured": false
     },
     {
       "id": "2d",
@@ -423,12 +411,11 @@
         "/collections/images/ethereal_glassworks/stained_glass_panel.png",
         "/collections/images/ethereal_glassworks/stained_glass_panel.png"
       ],
-      "price": 120.0,
+      "price": 120.00,
       "description": "A handcrafted stained glass panel with intricate patterns. Perfect for a window or as wall decor.",
       "url_external": "#",
       "isAvailable": false,
-      "isFeatured": false,
-      "rating": 4.7
+      "isFeatured": false
     },
     {
       "id": "2e",
@@ -439,12 +426,11 @@
         "/collections/images/ethereal_glassworks/glass_bell.png",
         "/collections/images/ethereal_glassworks/glass_bell.png"
       ],
-      "price": 30.0,
+      "price": 30.00,
       "description": "A delicate glass bell that produces a clear, beautiful chime. A charming addition to any collection.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.5
+      "isFeatured": false
     },
     {
       "id": "2f",
@@ -455,12 +441,11 @@
         "/collections/images/ethereal_glassworks/blown_glass_ornament.png",
         "/collections/images/ethereal_glassworks/blown_glass_ornament.png"
       ],
-      "price": 18.0,
+      "price": 18.00,
       "description": "A whimsical blown glass ornament, each one unique. Adds a festive or decorative touch all year round.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.4
+      "isFeatured": false
     },
     {
       "id": "2g",
@@ -471,12 +456,11 @@
         "/collections/images/ethereal_glassworks/glass_tumbler_set.png",
         "/collections/images/ethereal_glassworks/glass_tumbler_set.png"
       ],
-      "price": 49.9,
+      "price": 49.90,
       "description": "A set of beautifully crafted glass tumblers, perfect for daily use or special occasions.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.9
+      "isFeatured": false
     },
     {
       "id": "2h",
@@ -491,8 +475,7 @@
       "description": "An elegant glass decanter designed to aerate your favorite wines.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.7
+      "isFeatured": false
     },
     {
       "id": "2i",
@@ -503,12 +486,11 @@
         "/collections/images/ethereal_glassworks/glass_coasters.png",
         "/collections/images/ethereal_glassworks/glass_coasters.png"
       ],
-      "price": 28.0,
+      "price": 28.00,
       "description": "Hand-blown glass coasters that add a touch of color and whimsy to your home decor.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.8
+      "isFeatured": false
     },
     {
       "id": "3a",
@@ -519,12 +501,11 @@
         "/collections/images/glimmerstone_jewels/beaded_necklace.png",
         "/collections/images/glimmerstone_jewels/beaded_necklace.png"
       ],
-      "price": 42.0,
+      "price": 42.00,
       "description": "A vibrant beaded necklace, handcrafted with a unique mix of colors and shapes. A perfect accessory for any outfit.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 1.2
+      "isFeatured": true
     },
     {
       "id": "3b",
@@ -535,12 +516,11 @@
         "/collections/images/glimmerstone_jewels/gemstone_bracelet.png",
         "/collections/images/glimmerstone_jewels/gemstone_bracelet.png"
       ],
-      "price": 65.0,
+      "price": 65.00,
       "description": "A beautiful bracelet featuring a selection of natural gemstones. Each stone is chosen for its unique properties and beauty.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.5
+      "isFeatured": false
     },
     {
       "id": "3c",
@@ -551,12 +531,11 @@
         "/collections/images/glimmerstone_jewels/crystal_earrings.png",
         "/collections/images/glimmerstone_jewels/crystal_earrings.png"
       ],
-      "price": 50.0,
+      "price": 50.00,
       "description": "Delicate crystal earrings that catch the light with every movement. A subtle yet elegant addition to your jewelry box.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.3
+      "isFeatured": false
     },
     {
       "id": "3d",
@@ -567,12 +546,11 @@
         "/collections/images/glimmerstone_jewels/pendant_charm.png",
         "/collections/images/glimmerstone_jewels/pendant_charm.png"
       ],
-      "price": 25.0,
+      "price": 25.00,
       "description": "A unique pendant charm, intricately designed. Can be added to a necklace or bracelet for a personal touch.",
       "url_external": "#",
       "isAvailable": false,
-      "isFeatured": false,
-      "rating": 4.6
+      "isFeatured": false
     },
     {
       "id": "3e",
@@ -583,12 +561,11 @@
         "/collections/images/glimmerstone_jewels/silver_ring.png",
         "/collections/images/glimmerstone_jewels/silver_ring.png"
       ],
-      "price": 75.0,
+      "price": 75.00,
       "description": "A handcrafted silver ring with a polished finish. Simple and classic, perfect for daily wear.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.8
+      "isFeatured": false
     },
     {
       "id": "3f",
@@ -599,12 +576,11 @@
         "/collections/images/glimmerstone_jewels/pearl_brooch.png",
         "/collections/images/glimmerstone_jewels/pearl_brooch.png"
       ],
-      "price": 90.0,
+      "price": 90.00,
       "description": "An elegant pearl brooch, set in a delicate frame. A timeless accessory for jackets, scarves, or hats.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.8
+      "isFeatured": false
     },
     {
       "id": "3g",
@@ -615,12 +591,11 @@
         "/collections/images/glimmerstone_jewels/garnet_pendant.png",
         "/collections/images/glimmerstone_jewels/garnet_pendant.png"
       ],
-      "price": 120.0,
+      "price": 120.00,
       "description": "A stunning garnet pendant set in a delicate silver frame, symbolizing passion and strength.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.0
+      "isFeatured": false
     },
     {
       "id": "3h",
@@ -631,12 +606,11 @@
         "/collections/images/glimmerstone_jewels/turquoise_ring.png",
         "/collections/images/glimmerstone_jewels/turquoise_ring.png"
       ],
-      "price": 95.5,
+      "price": 95.50,
       "description": "A handcrafted silver ring featuring a vibrant turquoise gemstone, perfect for a pop of color.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.7
+      "isFeatured": false
     },
     {
       "id": "3i",
@@ -651,8 +625,7 @@
       "description": "Elegant amethyst earrings that capture light and add a touch of royalty to any outfit.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.0
+      "isFeatured": false
     },
     {
       "id": "4a",
@@ -663,12 +636,11 @@
         "/collections/images/heritage_leathers/leather_wallet.png",
         "/collections/images/heritage_leathers/leather_wallet.png"
       ],
-      "price": 55.0,
+      "price": 55.00,
       "description": "A classic bi-fold leather wallet, hand-stitched for durability. Designed to age beautifully with use.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 2.6
+      "isFeatured": true
     },
     {
       "id": "4b",
@@ -679,12 +651,11 @@
         "/collections/images/heritage_leathers/satchel_bag.png",
         "/collections/images/heritage_leathers/satchel_bag.png"
       ],
-      "price": 150.0,
+      "price": 150.00,
       "description": "A timeless leather satchel bag with multiple compartments. Perfect for work or travel.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.9
+      "isFeatured": false
     },
     {
       "id": "4c",
@@ -695,12 +666,11 @@
         "/collections/images/heritage_leathers/leather_belt.png",
         "/collections/images/heritage_leathers/leather_belt.png"
       ],
-      "price": 40.0,
+      "price": 40.00,
       "description": "A full-grain leather belt with a solid brass buckle. A sturdy and stylish accessory that lasts a lifetime.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.4
+      "isFeatured": false
     },
     {
       "id": "4d",
@@ -711,12 +681,11 @@
         "/collections/images/heritage_leathers/key_fob.png",
         "/collections/images/heritage_leathers/key_fob.png"
       ],
-      "price": 15.0,
+      "price": 15.00,
       "description": "A simple and elegant leather key fob. Keeps your keys organized and adds a touch of class.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.5
+      "isFeatured": false
     },
     {
       "id": "4e",
@@ -727,12 +696,11 @@
         "/collections/images/heritage_leathers/journal_cover.png",
         "/collections/images/heritage_leathers/journal_cover.png"
       ],
-      "price": 60.0,
+      "price": 60.00,
       "description": "A rugged leather cover for your journal or notebook. Protects your thoughts and memories in style.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.6
+      "isFeatured": false
     },
     {
       "id": "4f",
@@ -743,12 +711,11 @@
         "/collections/images/heritage_leathers/leather_card_holder.png",
         "/collections/images/heritage_leathers/leather_card_holder.png"
       ],
-      "price": 25.0,
+      "price": 25.00,
       "description": "A slim leather card holder, perfect for carrying essentials. Minimalist and functional.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.1
+      "isFeatured": false
     },
     {
       "id": "4g",
@@ -759,12 +726,11 @@
         "/collections/images/heritage_leathers/leather_passport_holder.png",
         "/collections/images/heritage_leathers/leather_passport_holder.png"
       ],
-      "price": 55.0,
+      "price": 55.00,
       "description": "Keep your passport safe and stylish with this handcrafted full-grain leather holder.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.9
+      "isFeatured": false
     },
     {
       "id": "4h",
@@ -775,12 +741,11 @@
         "/collections/images/heritage_leathers/leather_laptop_sleeve.png",
         "/collections/images/heritage_leathers/leather_laptop_sleeve.png"
       ],
-      "price": 115.0,
+      "price": 115.00,
       "description": "A sleek and protective leather sleeve for your laptop, designed for durability and elegance.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.6
+      "isFeatured": false
     },
     {
       "id": "4i",
@@ -791,12 +756,11 @@
         "/collections/images/heritage_leathers/leather_cord_organizer.png",
         "/collections/images/heritage_leathers/leather_cord_organizer.png"
       ],
-      "price": 18.5,
+      "price": 18.50,
       "description": "A small but essential accessory to keep your headphones and charging cords organized.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.8
+      "isFeatured": false
     },
     {
       "id": "5a",
@@ -807,12 +771,11 @@
         "/collections/images/timbercraft_artisans/carved_wood_statue.png",
         "/collections/images/timbercraft_artisans/carved_wood_statue.png"
       ],
-      "price": 95.0,
+      "price": 95.00,
       "description": "An intricate hand-carved wood statue, showcasing the natural grain and organic forms of the wood.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 3.8
+      "isFeatured": true
     },
     {
       "id": "5b",
@@ -823,12 +786,11 @@
         "/collections/images/timbercraft_artisans/wooden_bowl.png",
         "/collections/images/timbercraft_artisans/wooden_bowl.png"
       ],
-      "price": 45.0,
+      "price": 45.00,
       "description": "A beautiful wooden bowl, perfect for serving or as a decorative piece. Highlights the natural beauty of the timber.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.8
+      "isFeatured": false
     },
     {
       "id": "5c",
@@ -839,12 +801,11 @@
         "/collections/images/timbercraft_artisans/hand_carved_spoon.png",
         "/collections/images/timbercraft_artisans/hand_carved_spoon.png"
       ],
-      "price": 20.0,
+      "price": 20.00,
       "description": "A unique hand-carved wooden spoon, ideal for a rustic kitchen or as a collector's item.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.2
+      "isFeatured": false
     },
     {
       "id": "5d",
@@ -855,12 +816,11 @@
         "/collections/images/timbercraft_artisans/wooden_tray.png",
         "/collections/images/timbercraft_artisans/wooden_tray.png"
       ],
-      "price": 60.0,
+      "price": 60.00,
       "description": "A versatile wooden tray, perfect for serving snacks or as a stylish catch-all for your entryway.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.6
+      "isFeatured": false
     },
     {
       "id": "5e",
@@ -871,12 +831,11 @@
         "/collections/images/timbercraft_artisans/decorative_box.png",
         "/collections/images/timbercraft_artisans/decorative_box.png"
       ],
-      "price": 35.0,
+      "price": 35.00,
       "description": "A small decorative wooden box with a carved lid. Ideal for storing jewelry, keepsakes, or other small treasures.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.1
+      "isFeatured": false
     },
     {
       "id": "5f",
@@ -887,12 +846,11 @@
         "/collections/images/timbercraft_artisans/coasters.png",
         "/collections/images/timbercraft_artisans/coasters.png"
       ],
-      "price": 25.0,
+      "price": 25.00,
       "description": "A set of hand-carved wooden coasters. Protects your furniture with a rustic and elegant touch.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.5
+      "isFeatured": false
     },
     {
       "id": "5g",
@@ -903,12 +861,11 @@
         "/collections/images/timbercraft_artisans/wooden_cutting_board.png",
         "/collections/images/timbercraft_artisans/wooden_cutting_board.png"
       ],
-      "price": 45.0,
+      "price": 45.00,
       "description": "A robust and beautiful wooden cutting board, ideal for food preparation or serving.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.2
+      "isFeatured": false
     },
     {
       "id": "5h",
@@ -923,8 +880,7 @@
       "description": "A classic wood-turned salt cellar to keep your favorite salts close at hand while cooking.",
       "url_external": "#",
       "isAvailable": false,
-      "isFeatured": false,
-      "rating": 3.1
+      "isFeatured": false
     },
     {
       "id": "5i",
@@ -935,12 +891,11 @@
         "/collections/images/timbercraft_artisans/hand_carved_whistle.png",
         "/collections/images/timbercraft_artisans/hand_carved_whistle.png"
       ],
-      "price": 15.0,
+      "price": 15.00,
       "description": "A small, intricately hand-carved wooden whistle, perfect as a unique gift or collector's item.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.2
+      "isFeatured": false
     },
     {
       "id": "6a",
@@ -951,12 +906,11 @@
         "/collections/images/wool_&_whimsy/knitted_scarf.png",
         "/collections/images/wool_&_whimsy/knitted_scarf.png"
       ],
-      "price": 50.0,
+      "price": 50.00,
       "description": "A soft, hand-knitted scarf made from natural wool. Provides warmth and style on cold days.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 4.3
+      "isFeatured": true
     },
     {
       "id": "6b",
@@ -967,12 +921,11 @@
         "/collections/images/wool_&_whimsy/wool_beanie.png",
         "/collections/images/wool_&_whimsy/wool_beanie.png"
       ],
-      "price": 30.0,
+      "price": 30.00,
       "description": "A cozy wool beanie, hand-knitted for a snug fit. Keeps you warm during winter adventures.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.0
+      "isFeatured": false
     },
     {
       "id": "6c",
@@ -983,12 +936,11 @@
         "/collections/images/wool_&_whimsy/hand-knit_gloves.png",
         "/collections/images/wool_&_whimsy/hand-knit_gloves.png"
       ],
-      "price": 25.0,
+      "price": 25.00,
       "description": "Warm and comfortable hand-knit gloves, perfect for keeping your hands toasty on chilly mornings.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.6
+      "isFeatured": false
     },
     {
       "id": "6d",
@@ -999,12 +951,11 @@
         "/collections/images/wool_&_whimsy/wool_blanket.png",
         "/collections/images/wool_&_whimsy/wool_blanket.png"
       ],
-      "price": 150.0,
+      "price": 150.00,
       "description": "A luxurious wool blanket, hand-knitted with a chunky stitch. Ideal for cozying up on the sofa or as a bed throw.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.7
+      "isFeatured": false
     },
     {
       "id": "6e",
@@ -1015,12 +966,11 @@
         "/collections/images/wool_&_whimsy/woolen_socks.png",
         "/collections/images/wool_&_whimsy/woolen_socks.png"
       ],
-      "price": 18.0,
+      "price": 18.00,
       "description": "Super soft woolen socks, hand-knitted for ultimate comfort. Keeps your feet warm and dry.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.3
+      "isFeatured": false
     },
     {
       "id": "6f",
@@ -1031,12 +981,11 @@
         "/collections/images/wool_&_whimsy/knitted_sweater.png",
         "/collections/images/wool_&_whimsy/knitted_sweater.png"
       ],
-      "price": 85.0,
+      "price": 85.00,
       "description": "A classic knitted sweater, made from fine natural wool. Combines comfort, warmth, and timeless style.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.3
+      "isFeatured": false
     },
     {
       "id": "6g",
@@ -1051,8 +1000,7 @@
       "description": "A cozy, hand-knitted wool headband to keep your ears warm in style.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.5
+      "isFeatured": false
     },
     {
       "id": "6h",
@@ -1063,12 +1011,11 @@
         "/collections/images/wool_&_whimsy/felted_slippers.png",
         "/collections/images/wool_&_whimsy/felted_slippers.png"
       ],
-      "price": 38.0,
+      "price": 38.00,
       "description": "Soft and warm felted slippers, handcrafted for ultimate comfort at home.",
       "url_external": "#",
       "isAvailable": false,
-      "isFeatured": false,
-      "rating": 4.9
+      "isFeatured": false
     },
     {
       "id": "6i",
@@ -1079,12 +1026,11 @@
         "/collections/images/wool_&_whimsy/knitted_dog_sweater.png",
         "/collections/images/wool_&_whimsy/knitted_dog_sweater.png"
       ],
-      "price": 24.5,
+      "price": 24.50,
       "description": "A charming knitted sweater to keep your furry friend cozy during cold days.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.2
+      "isFeatured": false
     },
     {
       "id": "7a",
@@ -1095,12 +1041,11 @@
         "/collections/images/paper_&_ink/hand_bound_journal.png",
         "/collections/images/paper_&_ink/hand_bound_journal.png"
       ],
-      "price": 45.0,
+      "price": 45.00,
       "description": "A beautifully hand-bound journal with high-quality paper. Perfect for writing, sketching, or journaling.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 2.9
+      "isFeatured": true
     },
     {
       "id": "7b",
@@ -1111,12 +1056,11 @@
         "/collections/images/paper_&_ink/letterpress_prints.png",
         "/collections/images/paper_&_ink/letterpress_prints.png"
       ],
-      "price": 25.0,
+      "price": 25.00,
       "description": "Limited-edition letterpress prints with unique designs. Each print is a piece of art in itself.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.0
+      "isFeatured": false
     },
     {
       "id": "7c",
@@ -1127,12 +1071,11 @@
         "/collections/images/paper_&_ink/custom_stationery.png",
         "/collections/images/paper_&_ink/custom_stationery.png"
       ],
-      "price": 50.0,
+      "price": 50.00,
       "description": "Personalized stationery sets with your name or custom design. Perfect for elegant correspondence.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.6
+      "isFeatured": false
     },
     {
       "id": "7d",
@@ -1143,12 +1086,11 @@
         "/collections/images/paper_&_ink/artistic_note_cards.png",
         "/collections/images/paper_&_ink/artistic_note_cards.png"
       ],
-      "price": 18.0,
+      "price": 18.00,
       "description": "A set of note cards featuring original artistic designs. Ideal for short messages and personal notes.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.5
+      "isFeatured": false
     },
     {
       "id": "7e",
@@ -1159,12 +1101,11 @@
         "/collections/images/paper_&_ink/sketchbook.png",
         "/collections/images/paper_&_ink/sketchbook.png"
       ],
-      "price": 22.0,
+      "price": 22.00,
       "description": "A high-quality sketchbook with thick, durable paper. Perfect for artists of all levels.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.7
+      "isFeatured": false
     },
     {
       "id": "7f",
@@ -1175,12 +1116,11 @@
         "/collections/images/paper_&_ink/ink_pen_set.png",
         "/collections/images/paper_&_ink/ink_pen_set.png"
       ],
-      "price": 35.0,
+      "price": 35.00,
       "description": "A complete set of ink pens with various tips and colors. Ideal for drawing, calligraphy, and writing.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.4
+      "isFeatured": false
     },
     {
       "id": "7g",
@@ -1191,12 +1131,11 @@
         "/collections/images/paper_&_ink/handmade_envelopes.png",
         "/collections/images/paper_&_ink/handmade_envelopes.png"
       ],
-      "price": 15.0,
+      "price": 15.00,
       "description": "Handmade envelopes crafted with care, perfect for sending personalized letters and cards.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.2
+      "isFeatured": false
     },
     {
       "id": "7h",
@@ -1211,8 +1150,7 @@
       "description": "A complete calligraphy set for beginners and enthusiasts to master the art of elegant writing.",
       "url_external": "#",
       "isAvailable": false,
-      "isFeatured": false,
-      "rating": 1.3
+      "isFeatured": false
     },
     {
       "id": "7i",
@@ -1223,12 +1161,11 @@
         "/collections/images/paper_&_ink/personalized_wax_seal.png",
         "/collections/images/paper_&_ink/personalized_wax_seal.png"
       ],
-      "price": 28.5,
+      "price": 28.50,
       "description": "Add a touch of vintage elegance to your correspondence with a personalized wax seal.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.5
+      "isFeatured": false
     },
     {
       "id": "8a",
@@ -1239,12 +1176,11 @@
         "/collections/images/stitch_&_thread/embroidered_patch.png",
         "/collections/images/stitch_&_thread/embroidered_patch.png"
       ],
-      "price": 15.0,
+      "price": 15.00,
       "description": "A hand-embroidered patch with a unique design. Perfect for adding a personalized touch to jackets or bags.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 2.3
+      "isFeatured": true
     },
     {
       "id": "8b",
@@ -1255,12 +1191,11 @@
         "/collections/images/stitch_&_thread/textile_art.png",
         "/collections/images/stitch_&_thread/textile_art.png"
       ],
-      "price": 75.0,
+      "price": 75.00,
       "description": "A unique piece of textile art, hand-stitched with intricate patterns and vibrant colors. A beautiful wall decoration.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.9
+      "isFeatured": false
     },
     {
       "id": "8c",
@@ -1271,12 +1206,11 @@
         "/collections/images/stitch_&_thread/hand_stitched_tapestry.png",
         "/collections/images/stitch_&_thread/hand_stitched_tapestry.png"
       ],
-      "price": 120.0,
+      "price": 120.00,
       "description": "A large hand-stitched tapestry, perfect for a statement piece in any room. A true work of art.",
       "url_external": "#",
       "isAvailable": false,
-      "isFeatured": false,
-      "rating": 4.3
+      "isFeatured": false
     },
     {
       "id": "8d",
@@ -1287,12 +1221,11 @@
         "/collections/images/stitch_&_thread/patterned_cushion.png",
         "/collections/images/stitch_&_thread/patterned_cushion.png"
       ],
-      "price": 35.0,
+      "price": 35.00,
       "description": "A decorative cushion with a hand-embroidered pattern. Adds a touch of elegance to your sofa or bed.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.8
+      "isFeatured": false
     },
     {
       "id": "8e",
@@ -1303,12 +1236,11 @@
         "/collections/images/stitch_&_thread/silk_ribbon_art.png",
         "/collections/images/stitch_&_thread/silk_ribbon_art.png"
       ],
-      "price": 60.0,
+      "price": 60.00,
       "description": "A delicate piece of art created with hand-embroidered silk ribbons. Features floral and nature-inspired designs.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.7
+      "isFeatured": false
     },
     {
       "id": "8f",
@@ -1319,12 +1251,11 @@
         "/collections/images/stitch_&_thread/custom_embroined_bag.png",
         "/collections/images/stitch_&_thread/custom_embroined_bag.png"
       ],
-      "price": 85.0,
+      "price": 85.00,
       "description": "A custom-embroidered canvas bag, perfect for personal gifts or everyday use.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.1
+      "isFeatured": false
     },
     {
       "id": "8g",
@@ -1335,12 +1266,11 @@
         "/collections/images/stitch_&_thread/embroidered_wall_hoop.png",
         "/collections/images/stitch_&_thread/embroidered_wall_hoop.png"
       ],
-      "price": 45.0,
+      "price": 45.00,
       "description": "A decorative embroidered wall hoop, perfect for adding a touch of personalized elegance to any space.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.0
+      "isFeatured": false
     },
     {
       "id": "8h",
@@ -1351,12 +1281,11 @@
         "/collections/images/stitch_&_thread/quilted_blanket.png",
         "/collections/images/stitch_&_thread/quilted_blanket.png"
       ],
-      "price": 120.0,
+      "price": 120.00,
       "description": "A cozy, handmade quilted blanket with intricate patterns, ideal for snuggling up on the sofa.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.1
+      "isFeatured": false
     },
     {
       "id": "8i",
@@ -1371,8 +1300,7 @@
       "description": "A set of four handmade fabric coasters, designed to protect your furniture with a touch of style.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.0
+      "isFeatured": false
     },
     {
       "id": "9a",
@@ -1383,12 +1311,11 @@
         "/collections/images/wicker_&_weave/wicker_basket.png",
         "/collections/images/wicker_&_weave/wicker_basket.png"
       ],
-      "price": 38.0,
+      "price": 38.00,
       "description": "A beautifully woven wicker basket with sturdy handles. Ideal for storage, laundry, or as a decorative piece.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 1.6
+      "isFeatured": true
     },
     {
       "id": "9b",
@@ -1399,12 +1326,11 @@
         "/collections/images/wicker_&_weave/woven_chair.png",
         "/collections/images/wicker_&_weave/woven_chair.png"
       ],
-      "price": 180.0,
+      "price": 180.00,
       "description": "A hand-woven rattan chair with an elegant design. Perfect for adding a rustic feel to your living space.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.3
+      "isFeatured": false
     },
     {
       "id": "9c",
@@ -1415,12 +1341,11 @@
         "/collections/images/wicker_&_weave/rattan_lamp.png",
         "/collections/images/wicker_&_weave/rattan_lamp.png"
       ],
-      "price": 75.0,
+      "price": 75.00,
       "description": "A rattan lamp shade that provides warm, ambient lighting. Adds a natural and cozy feel to any room.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 4.1
+      "isFeatured": false
     },
     {
       "id": "9d",
@@ -1431,12 +1356,11 @@
         "/collections/images/wicker_&_weave/decorative_tray.png",
         "/collections/images/wicker_&_weave/decorative_tray.png"
       ],
-      "price": 25.0,
+      "price": 25.00,
       "description": "A hand-woven decorative tray, perfect for displaying candles, small plants, or other decorative items.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.0
+      "isFeatured": false
     },
     {
       "id": "9e",
@@ -1447,12 +1371,11 @@
         "/collections/images/wicker_&_weave/woven_wall_decor.png",
         "/collections/images/wicker_&_weave/woven_wall_decor.png"
       ],
-      "price": 40.0,
+      "price": 40.00,
       "description": "An intricate woven wall decor piece, perfect for adding texture and a bohemian touch to your walls.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.0
+      "isFeatured": false
     },
     {
       "id": "9f",
@@ -1463,12 +1386,11 @@
         "/collections/images/wicker_&_weave/rope_planter.png",
         "/collections/images/wicker_&_weave/rope_planter.png"
       ],
-      "price": 30.0,
+      "price": 30.00,
       "description": "A stylish rope planter, hand-woven and perfect for hanging plants indoors or outdoors.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.5
+      "isFeatured": false
     },
     {
       "id": "9g",
@@ -1479,12 +1401,11 @@
         "/collections/images/wicker_&_weave/woven_storage_box.png",
         "/collections/images/wicker_&_weave/woven_storage_box.png"
       ],
-      "price": 55.5,
+      "price": 55.50,
       "description": "A stylish woven storage box, perfect for decluttering and organizing any room with a natural touch.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.7
+      "isFeatured": false
     },
     {
       "id": "9h",
@@ -1499,8 +1420,7 @@
       "description": "A set of woven rattan coasters that bring a rustic and elegant feel to your tabletops.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.7
+      "isFeatured": false
     },
     {
       "id": "9i",
@@ -1511,12 +1431,11 @@
         "/collections/images/wicker_&_weave/seagrass_mat.png",
         "/collections/images/wicker_&_weave/seagrass_mat.png"
       ],
-      "price": 75.0,
+      "price": 75.00,
       "description": "A hand-woven seagrass mat, ideal for adding a natural, textured element to your living space.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.6
+      "isFeatured": false
     },
     {
       "id": "10a",
@@ -1527,12 +1446,11 @@
         "/collections/images/forged_metals/wrought_iron_candlestick.png",
         "/collections/images/forged_metals/wrought_iron_candlestick.png"
       ],
-      "price": 40.0,
+      "price": 40.00,
       "description": "A classic wrought iron candlestick, hand-forged for a rustic and timeless look. Perfect for adding a touch of elegance to any table.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 5.0
+      "isFeatured": true
     },
     {
       "id": "10b",
@@ -1543,12 +1461,11 @@
         "/collections/images/forged_metals/steel_bottle_opener.png",
         "/collections/images/forged_metals/steel_bottle_opener.png"
       ],
-      "price": 20.0,
+      "price": 20.00,
       "description": "A durable and rustic steel bottle opener, hand-forged for a unique and functional design.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.7
+      "isFeatured": false
     },
     {
       "id": "10c",
@@ -1559,12 +1476,11 @@
         "/collections/images/forged_metals/hand_forged_sculpture.png",
         "/collections/images/forged_metals/hand_forged_sculpture.png"
       ],
-      "price": 150.0,
+      "price": 150.00,
       "description": "A unique hand-forged sculpture, combining raw metal with refined artistry. A striking piece for any art collection.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.7
+      "isFeatured": false
     },
     {
       "id": "10d",
@@ -1575,12 +1491,11 @@
         "/collections/images/forged_metals/iron_grill.png",
         "/collections/images/forged_metals/iron_grill.png"
       ],
-      "price": 95.0,
+      "price": 95.00,
       "description": "A sturdy hand-forged iron grill, perfect for use over an open fire or as a decorative element in your fireplace.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.3
+      "isFeatured": false
     },
     {
       "id": "10e",
@@ -1591,12 +1506,11 @@
         "/collections/images/forged_metals/decorative_steel_hook.png",
         "/collections/images/forged_metals/decorative_steel_hook.png"
       ],
-      "price": 12.0,
+      "price": 12.00,
       "description": "A small but strong decorative steel hook, hand-forged with a rustic design. Perfect for hanging coats, hats, or towels.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.8
+      "isFeatured": false
     },
     {
       "id": "10f",
@@ -1607,12 +1521,11 @@
         "/collections/images/forged_metals/metal_art_piece.png",
         "/collections/images/forged_metals/metal_art_piece.png"
       ],
-      "price": 80.0,
+      "price": 80.00,
       "description": "An abstract metal art piece, forged from recycled steel. Adds a modern and industrial touch to any space.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.5
+      "isFeatured": false
     },
     {
       "id": "10g",
@@ -1623,12 +1536,11 @@
         "/collections/images/forged_metals/hand_forged_fire_poker.png",
         "/collections/images/forged_metals/hand_forged_fire_poker.png"
       ],
-      "price": 85.0,
+      "price": 85.00,
       "description": "A robust, hand-forged fire poker designed for durability and a classic look by the fireplace.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.1
+      "isFeatured": false
     },
     {
       "id": "10h",
@@ -1639,12 +1551,11 @@
         "/collections/images/forged_metals/wrought_iron_coasters.png",
         "/collections/images/forged_metals/wrought_iron_coasters.png"
       ],
-      "price": 30.0,
+      "price": 30.00,
       "description": "A set of four heavy-duty wrought iron coasters that are as functional as they are decorative.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.3
+      "isFeatured": false
     },
     {
       "id": "10i",
@@ -1655,12 +1566,11 @@
         "/collections/images/forged_metals/forged_metal_bottle_rack.png",
         "/collections/images/forged_metals/forged_metal_bottle_rack.png"
       ],
-      "price": 60.0,
+      "price": 60.00,
       "description": "An artistic and practical forged metal bottle rack, perfect for displaying your favorite wines.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.5
+      "isFeatured": false
     },
     {
       "id": "11a",
@@ -1671,12 +1581,11 @@
         "/collections/images/canvas_&_brush/oil_painting.png",
         "/collections/images/canvas_&_brush/oil_painting.png"
       ],
-      "price": 250.0,
+      "price": 250.00,
       "description": "A vivid oil painting on canvas, featuring a rich palette and expressive brushstrokes. A one-of-a-kind art piece.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": true,
-      "rating": 4.3
+      "isFeatured": true
     },
     {
       "id": "11b",
@@ -1687,12 +1596,11 @@
         "/collections/images/canvas_&_brush/watercolor_portrait.png",
         "/collections/images/canvas_&_brush/watercolor_portrait.png"
       ],
-      "price": 180.0,
+      "price": 180.00,
       "description": "A delicate watercolor portrait with soft lines and subtle colors. Perfect for a quiet, contemplative space.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.9
+      "isFeatured": false
     },
     {
       "id": "11c",
@@ -1703,12 +1611,11 @@
         "/collections/images/canvas_&_brush/abstract_art.png",
         "/collections/images/canvas_&_brush/abstract_art.png"
       ],
-      "price": 200.0,
+      "price": 200.00,
       "description": "An abstract art piece with bold shapes and a vibrant color scheme. Adds a modern and energetic feel to any wall.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.4
+      "isFeatured": false
     },
     {
       "id": "11d",
@@ -1719,12 +1626,11 @@
         "/collections/images/canvas_&_brush/landscape_painting.png",
         "/collections/images/canvas_&_brush/landscape_painting.png"
       ],
-      "price": 190.0,
+      "price": 190.00,
       "description": "A serene landscape painting that captures a beautiful natural scene. Brings a sense of calm and tranquility to your home.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.5
+      "isFeatured": false
     },
     {
       "id": "11e",
@@ -1735,12 +1641,11 @@
         "/collections/images/canvas_&_brush/acrylic_canvas.png",
         "/collections/images/canvas_&_brush/acrylic_canvas.png"
       ],
-      "price": 160.0,
+      "price": 160.00,
       "description": "An acrylic painting on canvas with a dynamic and colorful composition. A perfect statement piece for modern decor.",
       "url_external": "#",
       "isAvailable": false,
-      "isFeatured": false,
-      "rating": 2.7
+      "isFeatured": false
     },
     {
       "id": "11f",
@@ -1751,12 +1656,11 @@
         "/collections/images/canvas_&_brush/mixed_media.png",
         "/collections/images/canvas_&_brush/mixed_media.png"
       ],
-      "price": 175.0,
+      "price": 175.00,
       "description": "A mixed media piece combining different textures and elements. A unique and complex work of art.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 1.1
+      "isFeatured": false
     },
     {
       "id": "11g",
@@ -1771,8 +1675,7 @@
       "description": "A high-quality sketchbook with a durable leather cover, perfect for artists on the go.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.1
+      "isFeatured": false
     },
     {
       "id": "11h",
@@ -1783,12 +1686,11 @@
         "/collections/images/canvas_&_brush/custom_pet_portrait.png",
         "/collections/images/canvas_&_brush/custom_pet_portrait.png"
       ],
-      "price": 150.0,
+      "price": 150.00,
       "description": "A unique, hand-painted custom portrait of your beloved pet, created with care and detail.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 2.3
+      "isFeatured": false
     },
     {
       "id": "11i",
@@ -1799,12 +1701,11 @@
         "/collections/images/canvas_&_brush/acrylic_paint_set.png",
         "/collections/images/canvas_&_brush/acrylic_paint_set.png"
       ],
-      "price": 45.0,
+      "price": 45.00,
       "description": "A versatile set of acrylic paints, offering a wide range of vivid colors for all your projects.",
       "url_external": "#",
       "isAvailable": true,
-      "isFeatured": false,
-      "rating": 3.9
+      "isFeatured": false
     }
   ]
 }
