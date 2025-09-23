@@ -1,5 +1,13 @@
 import ProductClient from './ProductClient';
 
+interface Review {
+  customerName: string;
+  customerImage: string;
+  rating: number;
+  date: string;
+  comment: string;
+}
+
 interface Product {
   id: string;
   imageUrl: string;
@@ -8,6 +16,7 @@ interface Product {
   name: string;
   price: number;
   rating: number;
+  reviews: Review[]; // Adicionamos o novo campo
 }
 
 interface Collection {
@@ -35,7 +44,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const product = products.find(p => p.id === id);
 
   if (!product) {
-    return <div>Produto não encontrado.</div>;
+    return <div>Product not found.</div>;
   }
 
   // Encontra a coleção do produto atual

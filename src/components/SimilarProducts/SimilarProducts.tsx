@@ -60,7 +60,7 @@ export default function SimilarProducts({ products }: { products: Product[] }) {
       <h2 className="text-3xl font-bold text-center text-primary-800">Similar Products</h2>
       <div className="flex flex-wrap justify-center gap-6 mt-6">
         {products.map(product => (
-          <Link key={product.id} href={`/products/${product.id}`} passHref>
+          <Link key={product.id} href={`/product_detail/${product.id}`} passHref>
             <div className="flex flex-col items-center text-center p-4 border rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 cursor-pointer">
               <div className="relative w-40 h-40 mb-4">
                 <Image

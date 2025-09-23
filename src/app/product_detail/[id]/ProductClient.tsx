@@ -5,6 +5,16 @@ import Image from "next/image";
 import { Star } from "lucide-react";
 import SimilarProducts from '@app/components/SimilarProducts/SimilarProducts';
 
+// Definimos uma nova interface para os reviews
+interface Review {
+  customerName: string;
+  customerImage: string;
+  rating: number;
+  date: string;
+  comment: string;
+}
+
+// Atualizamos a interface do produto para incluir o array de reviews
 interface Product {
   id: string;
   imageUrl: string;
@@ -13,6 +23,7 @@ interface Product {
   name: string;
   price: number;
   rating: number;
+  reviews: Review[]; // Adicionamos o novo campo
 }
 
 interface ProductClientProps {
@@ -134,6 +145,46 @@ export default function ProductClient({ product, similarProducts }: ProductClien
       <div className="flex justify-center mt-8">
         <div className="w-full max-w-7xl">
           <SimilarProducts products={similarProducts} />
+        </div>
+      </div>
+      
+      {/* Separador e Seção de Reviews */}
+      <hr className="my-8 border-gray-300" />
+      <div className="mt-8">
+        <h2 className="text-3xl font-bold text-gray-800 mb-6">Reviews</h2>
+        <div className="space-y-8">
+          {product.reviews && product.reviews.length > 0 ? (
+            product.reviews.map((review, index) => (
+              <div key={index} className="flex gap-4 items-start p-4 border rounded-lg shadow-sm bg-white">
+                {/* Foto do Cliente */}
+                <div className="relative w-16 h-16 flex-shrink-0">
+                  <Image
+                    src={review.customerImage}
+                    alt={review.customerName}
+                    fill
+                    className="rounded-full object-cover border-2 border-gray-200"
+                  />
+                </div>
+                
+                {/* Container para Nome, Data, Rating e Comentário */}
+                <div className="flex flex-col sm:flex-row gap-4 flex-1">
+                  {/* Nome, Data e Rating */}
+                  <div className="flex flex-col w-full sm:w-auto">
+                    <h4 className="font-semibold text-lg">{review.customerName}</h4>
+                    <span className="text-sm text-gray-500">{review.date}</span>
+                    <div className="mt-1">{renderStars(review.rating)}</div>
+                  </div>
+                  
+                  {/* Comentário */}
+                  <div className="flex-1">
+                    <p className="text-gray-700">{review.comment}</p>
+                  </div>
+                </div>
+              </div>
+            ))
+          ) : (
+            <p className="text-center text-gray-500">Nenhuma avaliação encontrada para este produto.</p>
+          )}
         </div>
       </div>
 
