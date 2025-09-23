@@ -32,7 +32,7 @@ export default async function ProductPage({
 }: {
   params: { id: string };
 }) {
-  const { id }  = await params;
+  const { id }  = params;
 
   // Busca os dados da API
   const res = await fetch('http://localhost:3000/api/products');
