@@ -27,11 +27,11 @@ interface Collection {
   productIds: string[];
 }
 
-interface ProductPageProps {
-  params: {
-    id: string;
-  };
-}
+// interface ProductPageProps {
+//   params: {
+//     id: string;
+//   };
+// }
 
 export default async function ProductPage({ params }: ProductPageProps) {
   const { id } = params;
