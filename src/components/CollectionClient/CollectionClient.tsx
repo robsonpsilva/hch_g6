@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import ImageGallery from "@app/components/ImageGallery/ImageGallery";
 import CuratedCollection from "@app/components/CuratedCollections/CuratedCollections";
 import ProductCard from "@app/components/ProductCard/ProductCard";
-import Link from 'next/link';
+import Link from "next/link";
 
 // Definindo as interfaces do JSON original
 interface ProductData {
@@ -41,7 +41,7 @@ interface CombinedCollection {
 
 // O componente agora recebe 'collections' via props
 export default function CollectionsClient({ collections: initialCollections }: { collections: { collections: CollectionData[], products: ProductData[] } }) {
-  const [selectedCollectionName, setSelectedCollectionName] = useState('');
+  const [selectedCollectionName, setSelectedCollectionName] = useState("");
   const [collections, setCollections] = useState<CombinedCollection[]>([]);
 
   useEffect(() => {
@@ -97,7 +97,7 @@ export default function CollectionsClient({ collections: initialCollections }: {
           <hr className="my-6" />
           <h2 className="text-2xl font-bold mb-4 text-center">Recommended products</h2>
           <p className="text-black leading-relaxed mb-8 text-center">
-            Discover the perfect piece to complete your collection! Our recommended products are handpicked to offer the same quality and exclusivity you love. Don't miss the chance to add a special touch to your life.
+            Discover the perfect piece to complete your collection! Our recommended products are handpicked to offer the same quality and exclusivity you love. Do not miss the chance to add a special touch to your life.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {recommendedProducts.map(product => (

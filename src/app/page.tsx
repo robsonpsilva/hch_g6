@@ -43,7 +43,7 @@ export default async function Page() {
     const productMap = new Map(products.map(product => [product.id, product]));
 
     let currentCollectionIndex = 0;
-    let fallbackIndex = 0; // para produtos não featured
+    // let fallbackIndex = 0; // para produtos não featured
     
     // Preencha até 10 produtos
     while (featuredProducts.length < 10) {

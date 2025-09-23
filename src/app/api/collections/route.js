@@ -3,7 +3,7 @@ import fsPromises from 'fs/promises';
 import path from 'path';
 
 // A função GET responde a requisições GET
-export async function GET(request) {
+export async function GET() {
   try {
     const filePath = path.join(process.cwd(), 'data/collections.json');
    
