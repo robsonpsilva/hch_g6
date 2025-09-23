@@ -27,13 +27,8 @@ interface Collection {
   productIds: string[];
 }
 
-// interface ProductPageProps {
-//   params: {
-//     id: string;
-//   };
-// }
-
-export default async function ProductPage({ params }:{ params: { id: string } }) {
+// A tipagem é feita diretamente no parâmetro da função para evitar o conflito
+export default async function ProductPage({ params }: { params: { id: string } }) {
   const { id } = params;
 
   // Busca os dados da API
