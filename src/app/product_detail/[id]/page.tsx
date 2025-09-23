@@ -1,4 +1,5 @@
 // src/app/product_detail/[id]/page.tsx
+import { type PageProps } from 'next';
 
 import ProductClient from './ProductClient';
 
@@ -28,8 +29,8 @@ interface Collection {
 }
 
 // A tipagem é feita diretamente no parâmetro da função para evitar o conflito
-export default async function ProductPage({ params }: { params: { id: string } }) {
-  const { id } = params;
+export default async function ProductPage({ params }: PageProps) {
+  const id  = params.id;
 
   // Busca os dados da API
   const res = await fetch('http://localhost:3000/api/products');
