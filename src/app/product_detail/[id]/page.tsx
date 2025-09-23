@@ -1,5 +1,8 @@
+// src/app/product_detail/[id]/page.tsx
+
 import ProductClient from './ProductClient';
 
+// Definimos a nova interface para os reviews
 interface Review {
   customerName: string;
   customerImage: string;
@@ -16,7 +19,7 @@ interface Product {
   name: string;
   price: number;
   rating: number;
-  reviews: Review[]; // Adicionamos o novo campo
+  reviews: Review[];
 }
 
 interface Collection {
@@ -25,14 +28,9 @@ interface Collection {
   productIds: string[];
 }
 
-interface ProductPageProps {
-  params: {
-    id: string;
-  };
-}
-
-export default async function ProductPage({ params }: ProductPageProps) {
-  const id = params.id;
+// A tipagem da função foi ajustada diretamente aqui
+export default async function ProductPage({ params }: { params: { id: string } }) {
+  const { id } = params;
 
   // Busca os dados da API
   const res = await fetch('http://localhost:3000/api/products');
