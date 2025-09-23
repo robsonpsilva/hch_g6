@@ -28,7 +28,8 @@ import productsData from '../../../data/products.json';
     // Usa dados mockados do arquivo JSON
     collections = productsData;
   } else {
-    const res = await fetch('http://localhost:3000/api/products');
+    const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+    const res = await fetch(`${BASE_URL}/api/products`);
     if (!res.ok) {
       console.error('Failed to fetch collections', res.status);
       notFound();

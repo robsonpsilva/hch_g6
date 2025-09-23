@@ -18,7 +18,8 @@ interface Collection {
 }
 
 export default async function Page() {
-  const res = await fetch('http://localhost:3000/api/products');
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+  const res = await fetch(`${BASE_URL}/api/products`);
   const data = await res.json();
   const products: Product[] = data.products;
   const collections: Collection[] = data.collections;

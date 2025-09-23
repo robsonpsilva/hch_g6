@@ -45,7 +45,8 @@ export default async function ProductPage(props: PageProps<'/product_detail/[id]
     collections = productsData.collections as Collection[];
   } else {
     // Busca os dados da API normalmente
-    const res = await fetch('http://localhost:3000/api/products');
+    const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+    const res = await fetch(`${BASE_URL}/api/products`);
     const data = await res.json();
     products = data.products;
     collections = data.collections;
