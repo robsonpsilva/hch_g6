@@ -2,7 +2,6 @@
 
 import ProductClient from './ProductClient';
 
-// Definimos a nova interface para os reviews
 interface Review {
   customerName: string;
   customerImage: string;
@@ -28,8 +27,13 @@ interface Collection {
   productIds: string[];
 }
 
-// A tipagem da função foi ajustada para remover o erro
-export default async function ProductPage({ params }: any) {
+interface ProductPageProps {
+  params: {
+    id: string;
+  };
+}
+
+export default async function ProductPage({ params }: ProductPageProps) {
   const { id } = params;
 
   // Busca os dados da API
