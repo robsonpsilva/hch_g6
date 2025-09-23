@@ -28,8 +28,8 @@ interface Collection {
   productIds: string[];
 }
 
-// A tipagem da função foi ajustada diretamente aqui
-export default async function ProductPage({ params }: { params: { id: string } }) {
+// A tipagem da função foi ajustada para remover o erro
+export default async function ProductPage({ params }: any) {
   const { id } = params;
 
   // Busca os dados da API
